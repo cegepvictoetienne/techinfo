@@ -2,6 +2,7 @@ site_name: Techniques de l'informatique du Cégep de Victoriaville
 site_author: Étienne Rivard
 theme:
   name: material
+  custom_dir: overrides
   language: fr
   features:
     - content.code.copy
@@ -33,6 +34,9 @@ extra_javascript:
 nav:
   - 'Page principale': 'index.md'
   - 'Équipe': 'equipe.md'
+  - 'Stages':
+      - 'Pour les élèves': 'stages-eleve.md'
+      - 'Pour les employeurs': 'stages.md'
 
 markdown_extensions:
   - admonition

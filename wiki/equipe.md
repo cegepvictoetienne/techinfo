@@ -40,11 +40,31 @@
 
 ![alexandre-ouellet](./assets/alexandre-ouellet.png)
 
+Enseignant en informatique au Cégep depuis 2021  
+Assistant d'enseignement / chargé de cours à l'UQTR 2015-2022
+
+**Intérêts / spécialités de l'informatique** :
+Conception de logiciels, intelligence artificielle, qualité des logiciels, jeux vidéo, interface humain-machine, algorithmie, programmation objet et programmation scientifique
+
+**Intérêts personnels** :
+Vélo, course, ultimate fresbee, plein air, camping, aviation, jeux vidéo (RPG et stratégie), échecs, donjon et dragon, projets de menuiserie
+
+
 [Ouvrir une fenêtre de message Teams pour Alexandre](https://teams.microsoft.com/l/chat/0/0?tenantId=9d6cf526-ad81-46f8-a73a-a507aaf06cda&users=OUELLET.ALEXANDRE@cegepvicto.ca)
 
 # Étienne Rivard
 
 ![etienne-rivard](./assets/etienne-rivard.png)
+
+Enseignant en informatique au Cégep depuis 2017  
+Directeur TI - 2018 à 2021  
+Architecte de sécurité - 2015 à 2018  
+
+**Intérêts / spécialités de l'informatique** :
+Sécurité informatique, support technique, conception de logiciels
+
+**Intérêts personnels** :
+Donjon et dragon, intelligence artificielle, les félins
 
 [Ouvrir une fenêtre de message Teams pour Étienne](https://teams.microsoft.com/l/chat/0/0?tenantId=9d6cf526-ad81-46f8-a73a-a507aaf06cda&users=RIVARD.ETIENNE@cegepvicto.ca)
 
