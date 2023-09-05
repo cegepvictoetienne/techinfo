@@ -1,0 +1,1369 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Étienne Rivard">
+      
+      
+      
+        <link rel="prev" href="../abreviations/">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.6">
+    
+    
+      
+        <title>Traductions - Techniques de l'informatique du Cégep de Victoriaville</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.0e669242.min.css">
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h224V368c0-26.5 21.5-48 48-48h112V96c0-35.3-28.7-64-64-64H64zm384 320H336c-8.8 0-16 7.2-16 16v112l32-32 64-64 32-32z"/></svg>');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96zm0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zm-40-176h24v-64h-24c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24h-80c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M480 32c0-12.9-7.8-24.6-19.8-29.6S434.5.2 425.3 9.3L381.7 53c-48 48-113.1 75-181 75H64c-35.3 0-64 28.7-64 64v96c0 35.3 28.7 64 64 64v128c0 17.7 14.3 32 32 32h64c17.7 0 32-14.3 32-32V352h8.7c67.9 0 133 27 181 75l43.6 43.6c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V300.4c18.6-8.8 32-32.5 32-60.4s-13.4-51.6-32-60.4V32zm-64 76.7v262.6C357.2 317.8 280.5 288 200.7 288H192v-96h8.7c79.8 0 156.5-29.8 215.3-83.3z"/></svg>');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg>');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zm-86.2-346.7c7.9-22.3 29.1-37.3 52.8-37.3h58.3c34.9 0 63.1 28.3 63.1 63.1 0 22.6-12.1 43.5-31.7 54.8L280 264.4c-.2 13-10.9 23.6-24 23.6-13.3 0-24-10.7-24-24v-13.5c0-8.6 4.6-16.5 12.1-20.8l44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1 0-8.4-6.8-15.1-15.1-15.1h-58.3c-3.4 0-6.4 2.1-7.5 5.3l-.4 1.2c-4.4 12.5-18.2 19-30.6 14.6s-19-18.2-14.6-30.6l.4-1.2zM224 352a32 32 0 1 1 64 0 32 32 0 1 1-64 0z"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7.2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8.2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24v112c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0-64 0 32 32 0 1 0 64 0z"/></svg>');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.1 52.4 442.6 6.5c-1.9-3.9-6.1-6.5-10.5-6.5s-8.5 2.6-10.4 6.5l-16.5 45.9-46 16.8c-4.3 1.6-7.3 5.9-7.2 10.4 0 4.5 3 8.7 7.2 10.2l45.7 16.8 16.8 45.8c1.5 4.4 5.8 7.5 10.4 7.5s8.9-3.1 10.4-7.5l16.5-45.8 45.7-16.8c4.2-1.5 7.2-5.7 7.2-10.2 0-4.6-3-8.9-7.2-10.4l-45.6-16.8zm-132.4 53c-12.5-12.5-32.8-12.5-45.3 0l-2.9 2.9c-22-8-45.8-12.3-70.5-12.3C93.1 96 0 189.1 0 304s93.1 208 208 208 208-93.1 208-208c0-24.7-4.3-48.5-12.2-70.5l2.9-2.9c12.5-12.5 12.5-32.8 0-45.3l-80-80zM200 192c-57.4 0-104 46.6-104 104v8c0 8.8-7.2 16-16 16s-16-7.2-16-16v-8c0-75.1 60.9-136 136-136h8c8.8 0 16 7.2 16 16s-7.2 16-16 16h-8z"/></svg>');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 398.9c58.5-41.1 96-104.1 96-174.9C512 100.3 397.4 0 256 0S0 100.3 0 224c0 70.7 37.5 133.8 96 174.9V464c0 26.5 21.5 48 48 48h48v-48c0-8.8 7.2-16 16-16s16 7.2 16 16v48h64v-48c0-8.8 7.2-16 16-16s16 7.2 16 16v48h48c26.5 0 48-21.5 48-48v-65.1zM96 256a64 64 0 1 1 128 0 64 64 0 1 1-128 0zm256-64a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M320 0c17.7 0 32 14.3 32 32v64h120c39.8 0 72 32.2 72 72v272c0 39.8-32.2 72-72 72H168c-39.8 0-72-32.2-72-72V168c0-39.8 32.2-72 72-72h120V32c0-17.7 14.3-32 32-32zM208 384c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16h-32zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16h-32zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16h-32zM264 256a40 40 0 1 0-80 0 40 40 0 1 0 80 0zm152 40a40 40 0 1 0 0-80 40 40 0 1 0 0 80zM48 224h16v192H48c-26.5 0-48-21.5-48-48v-96c0-26.5 21.5-48 48-48zm544 0c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48h-16V224h16z"/></svg>');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M288 0H128c-17.7 0-32 14.3-32 32s14.3 32 32 32v132.8c0 11.8-3.3 23.5-9.5 33.5L10.3 406.2C3.6 417.2 0 429.7 0 442.6 0 480.9 31.1 512 69.4 512h309.2c38.3 0 69.4-31.1 69.4-69.4 0-12.8-3.6-25.4-10.3-36.4L329.5 230.4c-6.2-10.1-9.5-21.7-9.5-33.5V64c17.7 0 32-14.3 32-32S337.7 0 320 0h-32zm-96 196.8V64h64v132.8c0 23.7 6.6 46.9 19 67.1l34.5 56.1h-171l34.5-56.1c12.4-20.2 19-43.4 19-67.1z"/></svg>');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64h-64c-35.3 0-64-28.7-64-64V216z"/></svg>');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#traductions-des-termes-relies-a-linformatique" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href=".." title="Techniques de l&#39;informatique du Cégep de Victoriaville" class="md-header__button md-logo" aria-label="Techniques de l'informatique du Cégep de Victoriaville" data-md-component="logo">
+      
+  <img src="../assets/logo32x32.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Techniques de l'informatique du Cégep de Victoriaville
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Traductions
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Techniques de l&#39;informatique du Cégep de Victoriaville" class="md-nav__button md-logo" aria-label="Techniques de l'informatique du Cégep de Victoriaville" data-md-component="logo">
+      
+  <img src="../assets/logo32x32.png" alt="logo">
+
+    </a>
+    Techniques de l'informatique du Cégep de Victoriaville
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Page principale
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tutorat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Demander du tutorat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../equipe/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Équipe
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Stages
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Stages
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stages-eleve/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pour les élèves
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stages/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pour les employeurs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Références
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Références
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../abreviations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Abréviations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Traductions
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="traductions-des-termes-relies-a-linformatique">Traductions des termes reliés à l'informatique</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Anglais</th>
+<th style="text-align: left;">Français</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">access control</td>
+<td style="text-align: left;">contrôle d'accès</td>
+</tr>
+<tr>
+<td style="text-align: left;">access control list</td>
+<td style="text-align: left;">liste de droits d'accès</td>
+</tr>
+<tr>
+<td style="text-align: left;">access privilege</td>
+<td style="text-align: left;">privilège d'accès</td>
+</tr>
+<tr>
+<td style="text-align: left;">access right</td>
+<td style="text-align: left;">droit d'accès</td>
+</tr>
+<tr>
+<td style="text-align: left;">active threat</td>
+<td style="text-align: left;">menace active</td>
+</tr>
+<tr>
+<td style="text-align: left;">anti-spyware</td>
+<td style="text-align: left;">anti-logiciel espion</td>
+</tr>
+<tr>
+<td style="text-align: left;">antimalware</td>
+<td style="text-align: left;">anti-logiciel malveillant</td>
+</tr>
+<tr>
+<td style="text-align: left;">antivirus software</td>
+<td style="text-align: left;">logiciel antivirus</td>
+</tr>
+<tr>
+<td style="text-align: left;">application proxy server</td>
+<td style="text-align: left;">serveur mandataire d'application</td>
+</tr>
+<tr>
+<td style="text-align: left;">application shielding</td>
+<td style="text-align: left;">protection autonome d'application</td>
+</tr>
+<tr>
+<td style="text-align: left;">authentication</td>
+<td style="text-align: left;">authentification</td>
+</tr>
+<tr>
+<td style="text-align: left;">authentication factor</td>
+<td style="text-align: left;">facteur d'authentification</td>
+</tr>
+<tr>
+<td style="text-align: left;">authentication token</td>
+<td style="text-align: left;">jeton d'authentification</td>
+</tr>
+<tr>
+<td style="text-align: left;">authentication token device</td>
+<td style="text-align: left;">jeton d'authentification matériel</td>
+</tr>
+<tr>
+<td style="text-align: left;">authenticator</td>
+<td style="text-align: left;">authentifiant</td>
+</tr>
+<tr>
+<td style="text-align: left;">back-end</td>
+<td style="text-align: left;">côté serveur</td>
+</tr>
+<tr>
+<td style="text-align: left;">backdoor</td>
+<td style="text-align: left;">porte dérobée</td>
+</tr>
+<tr>
+<td style="text-align: left;">backup</td>
+<td style="text-align: left;">sauvegarde de données</td>
+</tr>
+<tr>
+<td style="text-align: left;">backup copy</td>
+<td style="text-align: left;">copie de sauvegarde</td>
+</tr>
+<tr>
+<td style="text-align: left;">behavioral biometrics</td>
+<td style="text-align: left;">biométrie comportementale</td>
+</tr>
+<tr>
+<td style="text-align: left;">biometric authentication</td>
+<td style="text-align: left;">authentification biométrique</td>
+</tr>
+<tr>
+<td style="text-align: left;">biometric authentication system</td>
+<td style="text-align: left;">système d'authentification biométrique</td>
+</tr>
+<tr>
+<td style="text-align: left;">biometric modality</td>
+<td style="text-align: left;">attribut biométrique</td>
+</tr>
+<tr>
+<td style="text-align: left;">biometrics</td>
+<td style="text-align: left;">biométrie</td>
+</tr>
+<tr>
+<td style="text-align: left;">botnet</td>
+<td style="text-align: left;">réseau d'ordinateurs zombies</td>
+</tr>
+<tr>
+<td style="text-align: left;">brute force attack</td>
+<td style="text-align: left;">attaque par force brute</td>
+</tr>
+<tr>
+<td style="text-align: left;">bug bounty</td>
+<td style="text-align: left;">prime de bogues</td>
+</tr>
+<tr>
+<td style="text-align: left;">business continuity plan</td>
+<td style="text-align: left;">plan de continuité d'activité</td>
+</tr>
+<tr>
+<td style="text-align: left;">Business logic</td>
+<td style="text-align: left;">Logique métier</td>
+</tr>
+<tr>
+<td style="text-align: left;">Business people</td>
+<td style="text-align: left;">Experts du domaine</td>
+</tr>
+<tr>
+<td style="text-align: left;">camel case</td>
+<td style="text-align: left;">notation chameau</td>
+</tr>
+<tr>
+<td style="text-align: left;">camelcase</td>
+<td style="text-align: left;">notation chameau</td>
+</tr>
+<tr>
+<td style="text-align: left;">captcha test</td>
+<td style="text-align: left;">test captcha</td>
+</tr>
+<tr>
+<td style="text-align: left;">checkbox</td>
+<td style="text-align: left;">case à cocher</td>
+</tr>
+<tr>
+<td style="text-align: left;">chief information security officer</td>
+<td style="text-align: left;">responsable de la sécurité de l'information</td>
+</tr>
+<tr>
+<td style="text-align: left;">cleartext</td>
+<td style="text-align: left;">texte en clair</td>
+</tr>
+<tr>
+<td style="text-align: left;">closure</td>
+<td style="text-align: left;">fermeture (ou bloc de fonctionnalités autonome?)</td>
+</tr>
+<tr>
+<td style="text-align: left;">cloud access security broker</td>
+<td style="text-align: left;">passerelle sécurisée d'accès au nuage</td>
+</tr>
+<tr>
+<td style="text-align: left;">computer disaster</td>
+<td style="text-align: left;">sinistre informatique</td>
+</tr>
+<tr>
+<td style="text-align: left;">computer risk analysis</td>
+<td style="text-align: left;">analyse des risques informatiques</td>
+</tr>
+<tr>
+<td style="text-align: left;">computer security analysis</td>
+<td style="text-align: left;">analyse de sécurité informatique</td>
+</tr>
+<tr>
+<td style="text-align: left;">computer security breach</td>
+<td style="text-align: left;">brèche de sécurité informatique</td>
+</tr>
+<tr>
+<td style="text-align: left;">computer security policy</td>
+<td style="text-align: left;">politique de sécurité informatique</td>
+</tr>
+<tr>
+<td style="text-align: left;">computer system intrusion</td>
+<td style="text-align: left;">intrusion informatique</td>
+</tr>
+<tr>
+<td style="text-align: left;">computer virus</td>
+<td style="text-align: left;">virus informatique</td>
+</tr>
+<tr>
+<td style="text-align: left;">confidential information</td>
+<td style="text-align: left;">information confidentielle</td>
+</tr>
+<tr>
+<td style="text-align: left;">crasher</td>
+<td style="text-align: left;">planter</td>
+</tr>
+<tr>
+<td style="text-align: left;">credential stuffing attack</td>
+<td style="text-align: left;">attaque par bourrage d'identifiants</td>
+</tr>
+<tr>
+<td style="text-align: left;">cross-site request forgery</td>
+<td style="text-align: left;">falsification de requête intersites</td>
+</tr>
+<tr>
+<td style="text-align: left;">cryptanalysis</td>
+<td style="text-align: left;">cryptanalyse</td>
+</tr>
+<tr>
+<td style="text-align: left;">cryptogram</td>
+<td style="text-align: left;">cryptogramme</td>
+</tr>
+<tr>
+<td style="text-align: left;">cryptographic algorithm</td>
+<td style="text-align: left;">algorithme de chiffrement</td>
+</tr>
+<tr>
+<td style="text-align: left;">cryptographic hash function</td>
+<td style="text-align: left;">fonction de hachage cryptographique</td>
+</tr>
+<tr>
+<td style="text-align: left;">cryptographic key</td>
+<td style="text-align: left;">clé cryptographique</td>
+</tr>
+<tr>
+<td style="text-align: left;">cryptography</td>
+<td style="text-align: left;">cryptographie</td>
+</tr>
+<tr>
+<td style="text-align: left;">cryptography system</td>
+<td style="text-align: left;">système cryptographique</td>
+</tr>
+<tr>
+<td style="text-align: left;">cyber threat hunting</td>
+<td style="text-align: left;">chasse aux menaces informatiques</td>
+</tr>
+<tr>
+<td style="text-align: left;">cyberattack</td>
+<td style="text-align: left;">cyberattaque</td>
+</tr>
+<tr>
+<td style="text-align: left;">dark pattern</td>
+<td style="text-align: left;">interface truquée</td>
+</tr>
+<tr>
+<td style="text-align: left;">data backup plan</td>
+<td style="text-align: left;">plan de sauvegarde des données</td>
+</tr>
+<tr>
+<td style="text-align: left;">data integrity</td>
+<td style="text-align: left;">intégrité des données</td>
+</tr>
+<tr>
+<td style="text-align: left;">data privacy</td>
+<td style="text-align: left;">confidentialité des données</td>
+</tr>
+<tr>
+<td style="text-align: left;">data securisation</td>
+<td style="text-align: left;">sécurisation des données</td>
+</tr>
+<tr>
+<td style="text-align: left;">data shredder</td>
+<td style="text-align: left;">destructeur de fichiers</td>
+</tr>
+<tr>
+<td style="text-align: left;">database</td>
+<td style="text-align: left;">base de données</td>
+</tr>
+<tr>
+<td style="text-align: left;">decryption</td>
+<td style="text-align: left;">déchiffrement</td>
+</tr>
+<tr>
+<td style="text-align: left;">decryption</td>
+<td style="text-align: left;">décryptage</td>
+</tr>
+<tr>
+<td style="text-align: left;">decryption key</td>
+<td style="text-align: left;">clé de déchiffrement</td>
+</tr>
+<tr>
+<td style="text-align: left;">denial of access</td>
+<td style="text-align: left;">refus d'accès</td>
+</tr>
+<tr>
+<td style="text-align: left;">denial of service</td>
+<td style="text-align: left;">déni de service</td>
+</tr>
+<tr>
+<td style="text-align: left;">denial of service attack</td>
+<td style="text-align: left;">attaque par déni de service</td>
+</tr>
+<tr>
+<td style="text-align: left;">digital certificate</td>
+<td style="text-align: left;">certificat numérique</td>
+</tr>
+<tr>
+<td style="text-align: left;">digital signature</td>
+<td style="text-align: left;">signature numérique</td>
+</tr>
+<tr>
+<td style="text-align: left;">digital signature</td>
+<td style="text-align: left;">signature numérique</td>
+</tr>
+<tr>
+<td style="text-align: left;">digital watermark</td>
+<td style="text-align: left;">tatouage numérique</td>
+</tr>
+<tr>
+<td style="text-align: left;">digital watermarking</td>
+<td style="text-align: left;">tatouage numérique</td>
+</tr>
+<tr>
+<td style="text-align: left;">disaster recovery</td>
+<td style="text-align: left;">reprise sur sinistre</td>
+</tr>
+<tr>
+<td style="text-align: left;">disaster recovery plan</td>
+<td style="text-align: left;">plan de reprise après sinistre</td>
+</tr>
+<tr>
+<td style="text-align: left;">distributed denial of service attack</td>
+<td style="text-align: left;">attaque par déni de service distribué</td>
+</tr>
+<tr>
+<td style="text-align: left;">double encryption</td>
+<td style="text-align: left;">double chiffrement</td>
+</tr>
+<tr>
+<td style="text-align: left;">drive-by install</td>
+<td style="text-align: left;">installation furtive</td>
+</tr>
+<tr>
+<td style="text-align: left;">dynamic password</td>
+<td style="text-align: left;">mot de passe dynamique</td>
+</tr>
+<tr>
+<td style="text-align: left;">electronic signature</td>
+<td style="text-align: left;">signature électronique</td>
+</tr>
+<tr>
+<td style="text-align: left;">encryption</td>
+<td style="text-align: left;">chiffrement</td>
+</tr>
+<tr>
+<td style="text-align: left;">encryption key</td>
+<td style="text-align: left;">clé de chiffrement</td>
+</tr>
+<tr>
+<td style="text-align: left;">endpoint security</td>
+<td style="text-align: left;">sécurité des terminaux</td>
+</tr>
+<tr>
+<td style="text-align: left;">facial recognition</td>
+<td style="text-align: left;">reconnaissance faciale</td>
+</tr>
+<tr>
+<td style="text-align: left;">front-end</td>
+<td style="text-align: left;">côté client</td>
+</tr>
+<tr>
+<td style="text-align: left;">fuzzing</td>
+<td style="text-align: left;">test à données aléatoires</td>
+</tr>
+<tr>
+<td style="text-align: left;">grey hat hacker</td>
+<td style="text-align: left;">chapeau gris</td>
+</tr>
+<tr>
+<td style="text-align: left;">hacktivism</td>
+<td style="text-align: left;">cyberactivisme</td>
+</tr>
+<tr>
+<td style="text-align: left;">hardware vulnerability</td>
+<td style="text-align: left;">vulnérabilité matérielle</td>
+</tr>
+<tr>
+<td style="text-align: left;">hash algorithm</td>
+<td style="text-align: left;">algorithme de hachage</td>
+</tr>
+<tr>
+<td style="text-align: left;">hash code</td>
+<td style="text-align: left;">code de hachage</td>
+</tr>
+<tr>
+<td style="text-align: left;">hashing</td>
+<td style="text-align: left;">hachage</td>
+</tr>
+<tr>
+<td style="text-align: left;">hoax</td>
+<td style="text-align: left;">canular</td>
+</tr>
+<tr>
+<td style="text-align: left;">honeypot</td>
+<td style="text-align: left;">pot de miel</td>
+</tr>
+<tr>
+<td style="text-align: left;">host program</td>
+<td style="text-align: left;">logiciel hôte</td>
+</tr>
+<tr>
+<td style="text-align: left;">hotfix</td>
+<td style="text-align: left;">correctif d'urgence</td>
+</tr>
+<tr>
+<td style="text-align: left;">identifier</td>
+<td style="text-align: left;">identifiant</td>
+</tr>
+<tr>
+<td style="text-align: left;">identity theft</td>
+<td style="text-align: left;">usurpation d'identité</td>
+</tr>
+<tr>
+<td style="text-align: left;">information leakage</td>
+<td style="text-align: left;">fuite d'information</td>
+</tr>
+<tr>
+<td style="text-align: left;">information security</td>
+<td style="text-align: left;">sécurité de l'information</td>
+</tr>
+<tr>
+<td style="text-align: left;">information security audit</td>
+<td style="text-align: left;">audit de sécurité informatique</td>
+</tr>
+<tr>
+<td style="text-align: left;">information security threat</td>
+<td style="text-align: left;">menace informatique</td>
+</tr>
+<tr>
+<td style="text-align: left;">information system audit</td>
+<td style="text-align: left;">audit informatique</td>
+</tr>
+<tr>
+<td style="text-align: left;">information technology risk</td>
+<td style="text-align: left;">risque informatique</td>
+</tr>
+<tr>
+<td style="text-align: left;">information technology security</td>
+<td style="text-align: left;">sécurité informatique</td>
+</tr>
+<tr>
+<td style="text-align: left;">Internet security</td>
+<td style="text-align: left;">sécurité Internet</td>
+</tr>
+<tr>
+<td style="text-align: left;">intrusion detection system</td>
+<td style="text-align: left;">système de détection d'intrusion</td>
+</tr>
+<tr>
+<td style="text-align: left;">intrusion test</td>
+<td style="text-align: left;">test d'intrusion</td>
+</tr>
+<tr>
+<td style="text-align: left;">IP spoofing</td>
+<td style="text-align: left;">usurpation d'adresse IP</td>
+</tr>
+<tr>
+<td style="text-align: left;">IP spoofing attack</td>
+<td style="text-align: left;">attaque par usurpation d'adresse IP</td>
+</tr>
+<tr>
+<td style="text-align: left;">key distribution centre</td>
+<td style="text-align: left;">centre de distribution de clés</td>
+</tr>
+<tr>
+<td style="text-align: left;">key pair</td>
+<td style="text-align: left;">biclé</td>
+</tr>
+<tr>
+<td style="text-align: left;">keylogger</td>
+<td style="text-align: left;">enregistreur de frappe</td>
+</tr>
+<tr>
+<td style="text-align: left;">keylogging</td>
+<td style="text-align: left;">enregistrement de frappe</td>
+</tr>
+<tr>
+<td style="text-align: left;">kill chain</td>
+<td style="text-align: left;">chaîne cybercriminelle</td>
+</tr>
+<tr>
+<td style="text-align: left;">logging</td>
+<td style="text-align: left;">journalisation</td>
+</tr>
+<tr>
+<td style="text-align: left;">logic bomb</td>
+<td style="text-align: left;">bombe logique</td>
+</tr>
+<tr>
+<td style="text-align: left;">logical security</td>
+<td style="text-align: left;">sécurité logique</td>
+</tr>
+<tr>
+<td style="text-align: left;">login</td>
+<td style="text-align: left;">ouverture de session</td>
+</tr>
+<tr>
+<td style="text-align: left;">login credentials</td>
+<td style="text-align: left;">données d'accès</td>
+</tr>
+<tr>
+<td style="text-align: left;">logout</td>
+<td style="text-align: left;">fermeture de session</td>
+</tr>
+<tr>
+<td style="text-align: left;">malicious advertisement</td>
+<td style="text-align: left;">publicité malveillante</td>
+</tr>
+<tr>
+<td style="text-align: left;">malicious advertising</td>
+<td style="text-align: left;">placement de publicité malveillante</td>
+</tr>
+<tr>
+<td style="text-align: left;">malicious software</td>
+<td style="text-align: left;">logiciel malveillant</td>
+</tr>
+<tr>
+<td style="text-align: left;">man-in-the-middle attack</td>
+<td style="text-align: left;">attaque par interception</td>
+</tr>
+<tr>
+<td style="text-align: left;">message digest</td>
+<td style="text-align: left;">empreinte numérique</td>
+</tr>
+<tr>
+<td style="text-align: left;">multi-factor authentication</td>
+<td style="text-align: left;">authentification multifacteur</td>
+</tr>
+<tr>
+<td style="text-align: left;">multiple encryption</td>
+<td style="text-align: left;">surchiffrement</td>
+</tr>
+<tr>
+<td style="text-align: left;">non-repudiation service</td>
+<td style="text-align: left;">service de non-répudiation</td>
+</tr>
+<tr>
+<td style="text-align: left;">passive threat</td>
+<td style="text-align: left;">menace passive</td>
+</tr>
+<tr>
+<td style="text-align: left;">password</td>
+<td style="text-align: left;">mot de passe</td>
+</tr>
+<tr>
+<td style="text-align: left;">patch</td>
+<td style="text-align: left;">correctif</td>
+</tr>
+<tr>
+<td style="text-align: left;">patcher program</td>
+<td style="text-align: left;">programme de correction</td>
+</tr>
+<tr>
+<td style="text-align: left;">pattern lock</td>
+<td style="text-align: left;">schéma de déverrouillage</td>
+</tr>
+<tr>
+<td style="text-align: left;">personal identification number</td>
+<td style="text-align: left;">numéro d'identification personnel</td>
+</tr>
+<tr>
+<td style="text-align: left;">personal information</td>
+<td style="text-align: left;">renseignements personnels</td>
+</tr>
+<tr>
+<td style="text-align: left;">pharming</td>
+<td style="text-align: left;">détournement de domaine</td>
+</tr>
+<tr>
+<td style="text-align: left;">phishing</td>
+<td style="text-align: left;">hameçonnage</td>
+</tr>
+<tr>
+<td style="text-align: left;">physical biometrics</td>
+<td style="text-align: left;">biométrie morphologique</td>
+</tr>
+<tr>
+<td style="text-align: left;">physical security</td>
+<td style="text-align: left;">sécurité physique</td>
+</tr>
+<tr>
+<td style="text-align: left;">polymorphic virus</td>
+<td style="text-align: left;">virus polymorphe</td>
+</tr>
+<tr>
+<td style="text-align: left;">pop-up window</td>
+<td style="text-align: left;">fenêtre contextuelle</td>
+</tr>
+<tr>
+<td style="text-align: left;">port scanner</td>
+<td style="text-align: left;">balayeur de ports</td>
+</tr>
+<tr>
+<td style="text-align: left;">port scanning</td>
+<td style="text-align: left;">balayage de ports</td>
+</tr>
+<tr>
+<td style="text-align: left;">principle of least privilege</td>
+<td style="text-align: left;">principe de privilège minimal</td>
+</tr>
+<tr>
+<td style="text-align: left;">private key</td>
+<td style="text-align: left;">clé privée</td>
+</tr>
+<tr>
+<td style="text-align: left;">privilege  management</td>
+<td style="text-align: left;">gestion des privilèges</td>
+</tr>
+<tr>
+<td style="text-align: left;">proxy server</td>
+<td style="text-align: left;">serveur mandataire</td>
+</tr>
+<tr>
+<td style="text-align: left;">public key</td>
+<td style="text-align: left;">clé publique</td>
+</tr>
+<tr>
+<td style="text-align: left;">public key algorithm</td>
+<td style="text-align: left;">algorithme à clé publique</td>
+</tr>
+<tr>
+<td style="text-align: left;">public-key cryptographic system</td>
+<td style="text-align: left;">système cryptographique à clé publique</td>
+</tr>
+<tr>
+<td style="text-align: left;">radio button</td>
+<td style="text-align: left;">bouton radio</td>
+</tr>
+<tr>
+<td style="text-align: left;">ransomware</td>
+<td style="text-align: left;">logiciel de rançon</td>
+</tr>
+<tr>
+<td style="text-align: left;">redundancy</td>
+<td style="text-align: left;">redondance</td>
+</tr>
+<tr>
+<td style="text-align: left;">refactoring</td>
+<td style="text-align: left;">réusinage</td>
+</tr>
+<tr>
+<td style="text-align: left;">Requirement</td>
+<td style="text-align: left;">Spécification / Besoin / Fonctionnalité</td>
+</tr>
+<tr>
+<td style="text-align: left;">residual data</td>
+<td style="text-align: left;">données résiduelles</td>
+</tr>
+<tr>
+<td style="text-align: left;">resource exhaustion attack</td>
+<td style="text-align: left;">attaque par épuisement de ressources</td>
+</tr>
+<tr>
+<td style="text-align: left;">restore point</td>
+<td style="text-align: left;">point de restauration</td>
+</tr>
+<tr>
+<td style="text-align: left;">secret key</td>
+<td style="text-align: left;">clé secrète</td>
+</tr>
+<tr>
+<td style="text-align: left;">secret key algorithm</td>
+<td style="text-align: left;">algorithme à clé secrète</td>
+</tr>
+<tr>
+<td style="text-align: left;">secret-key cryptographic system</td>
+<td style="text-align: left;">système cryptographique à clé secrète</td>
+</tr>
+<tr>
+<td style="text-align: left;">secure payment</td>
+<td style="text-align: left;">paiement sécurisé</td>
+</tr>
+<tr>
+<td style="text-align: left;">secure server</td>
+<td style="text-align: left;">serveur sécurisé</td>
+</tr>
+<tr>
+<td style="text-align: left;">secure site</td>
+<td style="text-align: left;">site sécurisé</td>
+</tr>
+<tr>
+<td style="text-align: left;">security by design</td>
+<td style="text-align: left;">sécurisation dès la conception</td>
+</tr>
+<tr>
+<td style="text-align: left;">security posture</td>
+<td style="text-align: left;">posture en matière de sécurité</td>
+</tr>
+<tr>
+<td style="text-align: left;">security protocol</td>
+<td style="text-align: left;">protocole de sécurité</td>
+</tr>
+<tr>
+<td style="text-align: left;">security vulnerability</td>
+<td style="text-align: left;">vulnérabilité informatique</td>
+</tr>
+<tr>
+<td style="text-align: left;">sensitive information</td>
+<td style="text-align: left;">information sensible</td>
+</tr>
+<tr>
+<td style="text-align: left;">session key</td>
+<td style="text-align: left;">clé de session</td>
+</tr>
+<tr>
+<td style="text-align: left;">SIM swapping</td>
+<td style="text-align: left;">usurpation de carte SIM</td>
+</tr>
+<tr>
+<td style="text-align: left;">slider</td>
+<td style="text-align: left;">bouton à glissière</td>
+</tr>
+<tr>
+<td style="text-align: left;">snake case</td>
+<td style="text-align: left;">notation serpent</td>
+</tr>
+<tr>
+<td style="text-align: left;">software vulnerability</td>
+<td style="text-align: left;">vulnérabilité logicielle</td>
+</tr>
+<tr>
+<td style="text-align: left;">spear phishing</td>
+<td style="text-align: left;">harponnage</td>
+</tr>
+<tr>
+<td style="text-align: left;">split tunneling</td>
+<td style="text-align: left;">tunnellisation partagée</td>
+</tr>
+<tr>
+<td style="text-align: left;">spoofing</td>
+<td style="text-align: left;">mystification</td>
+</tr>
+<tr>
+<td style="text-align: left;">spyware</td>
+<td style="text-align: left;">logiciel espion</td>
+</tr>
+<tr>
+<td style="text-align: left;">SQL injection attack</td>
+<td style="text-align: left;">attaque par injection SQL</td>
+</tr>
+<tr>
+<td style="text-align: left;">Stakeholder</td>
+<td style="text-align: left;">Partie prenante</td>
+</tr>
+<tr>
+<td style="text-align: left;">static password</td>
+<td style="text-align: left;">mot de passe statique</td>
+</tr>
+<tr>
+<td style="text-align: left;">strong authentication</td>
+<td style="text-align: left;">authentification forte</td>
+</tr>
+<tr>
+<td style="text-align: left;">time bomb</td>
+<td style="text-align: left;">bombe à retardement</td>
+</tr>
+<tr>
+<td style="text-align: left;">time-based one-time password</td>
+<td style="text-align: left;">mot de passe dynamique fondé sur le temps</td>
+</tr>
+<tr>
+<td style="text-align: left;">timestamping</td>
+<td style="text-align: left;">horodatage</td>
+</tr>
+<tr>
+<td style="text-align: left;">timestamping authority</td>
+<td style="text-align: left;">autorité d'horodatage</td>
+</tr>
+<tr>
+<td style="text-align: left;">toggle button</td>
+<td style="text-align: left;">bouton à bascule</td>
+</tr>
+<tr>
+<td style="text-align: left;">Transport Layer Security protocol</td>
+<td style="text-align: left;">protocole TLS</td>
+</tr>
+<tr>
+<td style="text-align: left;">Trojan horse</td>
+<td style="text-align: left;">cheval de Troie</td>
+</tr>
+<tr>
+<td style="text-align: left;">troubleshooting</td>
+<td style="text-align: left;">dépannage</td>
+</tr>
+<tr>
+<td style="text-align: left;">two-factor authentication</td>
+<td style="text-align: left;">authentification à deux facteurs</td>
+</tr>
+<tr>
+<td style="text-align: left;">username</td>
+<td style="text-align: left;">nom d'utilisateur</td>
+</tr>
+<tr>
+<td style="text-align: left;">virtual private network</td>
+<td style="text-align: left;">réseau privé virtuel</td>
+</tr>
+<tr>
+<td style="text-align: left;">virus activity</td>
+<td style="text-align: left;">activité virale</td>
+</tr>
+<tr>
+<td style="text-align: left;">watering hole attack</td>
+<td style="text-align: left;">attaque par embuscade</td>
+</tr>
+<tr>
+<td style="text-align: left;">Web bug</td>
+<td style="text-align: left;">pixel espion</td>
+</tr>
+<tr>
+<td style="text-align: left;">white hat hacker</td>
+<td style="text-align: left;">chapeau blanc</td>
+</tr>
+<tr>
+<td style="text-align: left;">worm</td>
+<td style="text-align: left;">ver informatique</td>
+</tr>
+<tr>
+<td style="text-align: left;">zero trust model</td>
+<td style="text-align: left;">modèle à vérification systématique</td>
+</tr>
+<tr>
+<td style="text-align: left;">zero-knowledge proof</td>
+<td style="text-align: left;">preuve à divulgation nulle de connaissance</td>
+</tr>
+<tr>
+<td style="text-align: left;">zombie computer</td>
+<td style="text-align: left;">ordinateur zombie</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.78eede0e.min.js"></script>
+      
+        <script src="../javascript/alltarget.js"></script>
+      
+    
+  </body>
+</html>
