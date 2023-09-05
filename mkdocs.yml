@@ -39,12 +39,15 @@ nav:
   - 'Stages':
       - 'Pour les élèves': 'stages-eleve.md'
       - 'Pour les employeurs': 'stages.md'
+  - 'Règles':
+      - 'Code emprunté': 'code-emprunte.md'
   - 'Références':
       - 'Abréviations': 'abreviations.md'
       - 'Traductions': 'traductions.md'
 
 markdown_extensions:
   - admonition
+  - footnotes
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
