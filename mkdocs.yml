@@ -63,6 +63,9 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.escapeall:
+      hardbreak: true # use \ to create new line
+      nbsp: true # use \<space> to create &nbsp;
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid

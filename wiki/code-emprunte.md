@@ -147,17 +147,17 @@ C'est lorsqu’une étudiante ou un étudiant remet un travail, ou une partie de
     Peut être accusé de plagiat, de tricherie ou de fraude un étudiant ou une étudiante qui commet une des fautes listées ci-dessous.
 
   
-- Est considéré comme du plagiat, de la tricherie ou de la fraude (liste non exhaustive), peu importe le type d’évaluation :
+- Est considéré comme du plagiat, de la tricherie ou de la fraude (liste non exhaustive), peu importe le type d’évaluation\ :
 
-    - Le fait de rapporter des informations, de quelque nature que ce soit, sans en citer la source ou la référence ou en la falsifiant ;
-    - Le fait de remettre une évaluation dont les idées, la structure ou la formulation sont similaires ou identiques à celle d’une tierce personne, que cette évaluation soit récente ou non ;
-    - {==Le fait de s’autoplagier==}, c’est-à-dire de {==remettre une évaluation ou une partie d’évaluation déjà réalisée==} dans un cours, et ce, sans avoir obtenu au préalable l’autorisation explicite de l’enseignante ou de l’enseignant du ou des cours concernés ;
-    - Le fait de falsifier des données ;
-    - Le fait de faire réaliser une évaluation, en tout ou en partie, par une tierce personne ;
-    - Le fait de consulter la copie d’une autre étudiante ou d’un autre étudiant lors d’un examen ;
-    - Le fait d’aider une personne à copier ou à tricher lors d’une évaluation ;
-    - Le fait de consulter ou de diffuser, avant une évaluation, son contenu ou ses solutions ;
-    - Le fait d’utiliser du matériel ou des ressources non autorisés lors d’une évaluation, quelle qu’en soit la forme ;
+    - Le fait de rapporter des informations, de quelque nature que ce soit, sans en citer la source ou la référence ou en la falsifiant\ ;
+    - Le fait de remettre une évaluation dont les idées, la structure ou la formulation sont similaires ou identiques à celle d’une tierce personne, que cette évaluation soit récente ou non\ ;
+    - {==Le fait de s’autoplagier==}, c’est-à-dire de {==remettre une évaluation ou une partie d’évaluation déjà réalisée==} dans un cours, et ce, sans avoir obtenu au préalable l’autorisation explicite de l’enseignante ou de l’enseignant du ou des cours concernés\ ;
+    - Le fait de falsifier des données\ ;
+    - Le fait de faire réaliser une évaluation, en tout ou en partie, par une tierce personne\ ;
+    - Le fait de consulter la copie d’une autre étudiante ou d’un autre étudiant lors d’un examen\ ;
+    - Le fait d’aider une personne à copier ou à tricher lors d’une évaluation\ ;
+    - Le fait de consulter ou de diffuser, avant une évaluation, son contenu ou ses solutions\ ;
+    - Le fait d’utiliser du matériel ou des ressources non autorisés lors d’une évaluation, quelle qu’en soit la forme\ ;
     - Le fait de quitter et de réintégrer une période d’évaluation sans autorisation préalable de l’enseignante ou de l’enseignant.
 
 ## Comment éviter l'autoplagiat?  
