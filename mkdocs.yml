@@ -33,6 +33,7 @@ extra_javascript:
 
 nav:
   - 'Page principale': 'index.md'
+  - 'Demander du tutorat': 'tutorat.md'
   - 'Équipe': 'equipe.md'
   - 'Stages':
       - 'Pour les élèves': 'stages-eleve.md'

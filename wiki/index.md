@@ -44,9 +44,13 @@ Cours|	Titre
 420-6C3-VI|	Projet personnel
 
 
-La liste des cours et leurs préalables est [ici](http://informatique.apical.xyz)  
+Un graphique du parcours incluant tous les cours et leurs préalables est [ici](http://informatique.apical.xyz)  
 
 ---
+
+# Demande de tutorat  
+
+[Comment accèder au formulaire de demande de tutorat](tutorat.md)  
 
 # Politiques du Cégep
 
@@ -77,36 +81,36 @@ Elle est disponible sur [Omnivox](https://cegepvicto.omnivox.ca), dans la commun
 
 # Ressources du Cégep
 
-- Association générale des étudiantes et étudiants du Cégep de Victoriaville (AGEECV)
+- [Association générale des étudiantes et étudiants du Cégep de Victoriaville (AGEECV)](https://www.cegepvicto.ca/eleves-actuels/ageecv/)  
 - Services aux étudiants
-- Carrefour technopédagogique
-- Bibliothèque
-- Coopsco
+- [Carrefour technopédagogique](https://www.cegepvicto.ca/eleves-actuels/services-eleve/carrefour-technopedagogique/)  
+- [Bibliothèque](https://cegepvictobiblio.weebly.com)  
+- [Coopsco](https://coopscovictoriaville.com/fr/)  
 
 # Ressource en informatique
 
-- Aide pédagogique individuel (élèves locaux)  
+- [Aide pédagogique individuel (élèves locaux)](https://www.cegepvicto.ca/eleves-actuels/services-eleve/aides-pedagogiques-individuels/)    
 
     - Valérie Bérubé (local C-104)
     - S'occupe de votre cheminement d'élève  
 
-- Aide pédagogique individuel (élèves internationaux)  
+- [Aide pédagogique individuel (élèves internationaux)](https://www.cegepvicto.ca/eleves-actuels/services-eleve/aides-pedagogiques-individuels/) 
 
     - Béatrice Laroche (local C-102)
     - S'occupe de votre cheminement d'élève  
 
 - Coordination de département  
 
-    - Alexandre Ouellet (local C-207)
+    - [Alexandre Ouellet](equipe.md/#alexandre-ouellet) (local C-207)
    - S'occupe des litiges, qualité de la formation et environnement physique
 
 - Coordination de programme  
 
-    - Étienne Rivard (local C-207 / Teams)
+    - [Étienne Rivard](equipe.md/#etienne-rivard) (local C-207 / Teams)
     - S'occupe du suivi de la réussite et des activités de programme
 
 - Responsable stages ATE  
 
-    - Étienne Rivard (local C-207 / Teams)
+    - [Étienne Rivard](equipe.md/#etienne-rivard) (local C-207 / Teams)
 
 ---
