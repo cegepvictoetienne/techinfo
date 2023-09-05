@@ -44,6 +44,21 @@ nav:
   - 'Références':
       - 'Abréviations': 'abreviations.md'
       - 'Traductions': 'traductions.md'
+  - 'Guide Mac':
+      - 'Page principale': 'guidemac/index.md'
+      - 'Installation':
+          - 'GIT': 'guidemac/git.md'
+          - 'Java': 'guidemac/java.md'
+          - 'Homebrew': 'guidemac/homebrew.md'
+          - 'Kali Linux': 'guidemac/kali.md'
+          - "Systèmes d'exploitation préinstallés": 'guidemac/os.md'
+          - 'UTM': 'guidemac/utm.md'
+          - 'UMLet': 'guidemac/umlet.md'
+          - 'Windows XP': 'guidemac/xp.md'
+      - 'Procédures':
+          - 'Créer ISO': 'guidemac/creer-iso.md'
+          - 'Convertir vmdk vers qcow2': 'guidemac/convertir-vmdk-vers-qcow2.md'
+          - 'Convertir qcow2 vers vmdk': 'guidemac/convertir-qcow2-vers-vmdk.md'
 
 markdown_extensions:
   - admonition
