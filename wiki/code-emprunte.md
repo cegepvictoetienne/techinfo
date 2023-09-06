@@ -92,29 +92,7 @@ $versionMajeurePHP = intval(explode('.',PHP_VERSION)[0]);​
 
 ## Code généré par ChatGPT  
 
-- Si votre code a été généré par ChatGPT ou en est inspiré, vous devez citer ChatGPT.
-
-```
-{==// Code emprunté. Source : ChatGPT - 2023​==}
-function bubbleSort(arr: number[]): number[] {
-  const n = arr.length;
-
-  for (let i = 0; i < n - 1; i++) {
-    for (let j = 0; j < n - 1 - i; j++) {
-      if (arr[j] > arr[j + 1]) {
-        // Échanger les éléments si l'élément actuel est plus grand que le suivant
-        const temp = arr[j];
-        arr[j] = arr[j + 1];
-        arr[j + 1] = temp;
-      }
-    }
-  }
-
-  return arr;
-}
-{==// Fin du code emprunté​==}
-
-```
+[Voir la page explicative pour citer une IA](citer-ia.md).  
 
 # Droits de réutilisation de code stipulés par une licence​  
 

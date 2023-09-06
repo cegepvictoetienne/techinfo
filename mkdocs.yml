@@ -39,7 +39,8 @@ nav:
   - 'Stages':
       - 'Pour les élèves': 'stages-eleve.md'
       - 'Pour les employeurs': 'stages.md'
-  - 'Règles':
+  - 'Intégrité académique':
+      - "Citer l'intelligence artificielle": 'citer-ia.md'
       - 'Code emprunté': 'code-emprunte.md'
   - 'Références':
       - 'Abréviations': 'abreviations.md'
