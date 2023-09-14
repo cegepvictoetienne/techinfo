@@ -60,6 +60,14 @@ nav:
           - 'Créer ISO': 'guidemac/creer-iso.md'
           - 'Convertir vmdk vers qcow2': 'guidemac/convertir-vmdk-vers-qcow2.md'
           - 'Convertir qcow2 vers vmdk': 'guidemac/convertir-qcow2-vers-vmdk.md'
+  - 'Outils':
+      - 'Développement': 'outils/developpement.md'
+      - 'Intelligence artificielle': 'outils/ia.md'
+      - 'Sécurité': 'outils/securite.md'
+      - 'Données': 'outils/donnees.md'
+      - 'Français': 'outils/francais.md'
+      - 'Veille technologique': 'outils/veille.md'
+      - 'Humour': 'outils/humour.md'
 
 markdown_extensions:
   - admonition

@@ -16,6 +16,16 @@
 
 ![mathieu-frechette](./assets/mathieu-frechette.jpeg)
 
+Enseignant en informatique au Cégep depuis 2021
+
+ 
+
+**Intérêts / spécialités de l'informatique :** Le web et les bases de données.  
+
+ 
+
+**Intérêts personnels :** La musique, le plein air, les humains
+
 [Ouvrir une fenêtre de message Teams pour Mathieu](https://teams.microsoft.com/l/chat/0/0?tenantId=9d6cf526-ad81-46f8-a73a-a507aaf06cda&users=FRECHETTE.MATHIEU@cegepvicto.ca)
 
 # Christiane Lagacé

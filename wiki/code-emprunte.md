@@ -2,7 +2,7 @@
 
 
 !!! note
-    Adaptation Web de la présentation préparée par Christiane Lagacé, enseignante en Techniques de l’informatique au Cégep de Victoriaville, 2022.​  
+    Adaptation Web de la présentation préparée par Christiane Lagacé, enseignante en Techniques de l’informatique au Cégep de Victoriaville, 2023.​  
 
 
 # Qu'est-ce que le code emprunté?  
@@ -16,7 +16,8 @@ Il s’agit de code que vous n’avez pas écrit, ou que vous avez adapté, et q
     - Notes de cours​
     - Web​
     - Documentation officielle​
-    - Générateurs de code​, incluant copilot et ChatGPT  
+    - Anciens travaux formatifs ou sommatifs
+    - Générateurs de code​, incluant l'IA (copilot, ChatGPT et autres)  
     - ou ailleurs​   
 
 # Est-ce que j’ai le droit d’utiliser du code emprunté?  
@@ -44,7 +45,8 @@ Il s’agit de code que vous n’avez pas écrit, ou que vous avez adapté, et q
 
 - Citer la source dans le commentaire de documentation de la fonction.​
 - Lorsque le code est utilisé tel quel, il faut ajouter la mention « Source » suivie de l'URL. Vous devez conserver le nom de l'auteur original.​
-- Si vous avez adapté le code, la mention sera « Inspiré de » suivie de l'URL. Vous pouvez à ce moment indiquer votre nom comme nom d'auteur.​
+- Dans le cas d'une IA, il faut plutôt ajouter la mention « Code généré par » suivie de la référence.
+- Si vous avez adapté le code, la mention sera « Inspiré de » suivie de l'URL ou dans le cas d'une IA, « Code partiellement généré par » suivie de la référence. Vous pouvez à ce moment indiquer votre nom comme nom d'auteur.​
 ​
 ```
 /**​
@@ -146,7 +148,7 @@ C'est lorsqu’une étudiante ou un étudiant remet un travail, ou une partie de
 
 ## Comment éviter le plagiat par distribution de matériel? 
 
-- Ne prêtez jamais votre code à une autre étudiante ou à un autre étudiant.
+- Ne prêtez jamais votre code à une autre étudiante ou à un autre étudiant, même lors de travaux formatifs.
 - Ne publiez jamais de code en lien avec des travaux scolaires dans un dépôt public sur GitHub ou autre.
 - En cas de doute sur la légitimité d’une publication, demandez à votre enseignante ou enseignant.
 

@@ -11,9 +11,9 @@ Dans le format APA la citation de l’intelligence artificielle prend la forme s
 
     Auteur. (Année). Nom de l’intelligence artificielle (version date) [Type de modèle]. URL
 
-Par exemple, pour citer le modèle du 3 août 2023 de ChatGPT on utilise la référence suivante : 
+Par exemple, pour citer le modèle du 15 mars 2023 de ChatGPT on utilise la référence suivante : 
 
-    OpenAI. (2023). ChatGPT (version 3 août 2023) [Modèle massif de langage]. https://chat.openai.com/chat
+    OpenAI. (2023). ChatGPT (version 15 mars 2023) [Modèle massif de langage]. https://chat.openai.com/chat
 
 Dans le texte, l’appel de citation se fera avec (Auteur, Année) par exemple : (Open IA, 2023).
 
@@ -32,7 +32,7 @@ Dans une balise __\<remarks>__ à l’intérieur de la balise __\<summary>__ (Bi
 /// Classe <c>Point</c> représente une coordonnée.
 ///
 {==/// <remarks>==}
-{==/// Code généré par : OpenAI. (2023). ChatGPT (version 3 août 2023) [Modèle massif ==}
+{==/// Code généré par : OpenAI. (2023). ChatGPT (version 15 mars 2023) [Modèle massif ==}
 {==/// de langage]. https://chat.openai.com/chat==}
 {==/// </remarks>==}
 /// 
@@ -56,7 +56,7 @@ public class Point
     /// <summary>
     /// Méthode <c>Draw</c> génère un point.
     {==/// <remarks>==}
-    {==/// Code partiellement généré par : OpenAI. (2023). ChatGPT (version 3 août 2023) [Modèle massif ==}
+    {==/// Code partiellement généré par : OpenAI. (2023). ChatGPT (version 15 mars 2023) [Modèle massif ==}
     {==/// de langage]. https://chat.openai.com/chat==}
     {==/// </remarks>==}
     /// </summary>
@@ -81,7 +81,7 @@ Dans le commentaire d’en-tête de la méthode ou de la classe.
  * @property name le nom de ce groupe.
  * @constructor Crée un groupe vide.
  *
- {==* Code généré par : OpenAI. (2023). ChatGPT (version 3 août 2023) [Modèle massif de ==}
+ {==* Code généré par : OpenAI. (2023). ChatGPT (version 15 mars 2023) [Modèle massif de ==}
  {==* langage]. https://chat.openai.com/chat==}
  */
 class Group<T>(val name: String) {
@@ -104,7 +104,7 @@ class Group<T>(val name: String) {
  * @property name le nom de ce groupe.
  * @constructor Crée un groupe vide.
  *
- {==* Code partiellement généré par : OpenAI. (2023). ChatGPT (version 3 août 2023) [Modèle massif de ==}
+ {==* Code partiellement généré par : OpenAI. (2023). ChatGPT (version 15 mars 2023) [Modèle massif de ==}
  {==* langage]. https://chat.openai.com/chat==}
  */
 class Group<T>(val name: String) {
@@ -137,7 +137,7 @@ Avec le tag author dans le commentaire de javadoc (Oracle, 2016).
 * @param  nom l'emplacement de l'image, relatif à l'argument url
 * @return      l'image à l'URL spécifiée
 * @see         Image
-{==* @author OpenAI. (2023). ChatGPT (version 3 août 2023) [Modèle massif de ==}
+{==* @author OpenAI. (2023). ChatGPT (version 15 mars 2023) [Modèle massif de ==}
 {==*         langage]. https://chat.openai.com/chat==}
 */
 public Image getImage(URL url, String name) {
@@ -167,7 +167,7 @@ public Image getImage(URL url, String name) {
 * @return      l'image à l'URL spécifiée
 * @see         Image
 {==* @author Auteur 1==}
-{==* @author OpenAI. (2023). ChatGPT (version 3 août 2023) [Modèle massif de ==}
+{==* @author OpenAI. (2023). ChatGPT (version 15 mars 2023) [Modèle massif de ==}
 {==*         langage]. https://chat.openai.com/chat==}
 */
 public Image getImage(URL url, String name) {
@@ -190,7 +190,7 @@ Avec le tag author dans le commentaire de PHPDoc.
  *
  * @param array $array Le tableau à trier.
  * @return array Le tableau trié.
- {==* @author OpenAI. (2023). ChatGPT (version 3 août 2023) [Modèle massif de ==}
+ {==* @author OpenAI. (2023). ChatGPT (version 15 mars 2023) [Modèle massif de ==}
  {==*         langage]. https://chat.openai.com/chat==}
  */
 function bubbleSort(array $array): array {
@@ -220,7 +220,7 @@ function bubbleSort(array $array): array {
  * @param array $array Le tableau à trier.
  * @return array Le tableau trié.
  {==* @author Auteur 1==}
- {==* @author OpenAI. (2023). ChatGPT (version 3 août 2023) [Modèle massif de ==}
+ {==* @author OpenAI. (2023). ChatGPT (version 15 mars 2023) [Modèle massif de ==}
  {==*         langage]. https://chat.openai.com/chat==}
  */
 function bubbleSort(array $array): array {
@@ -251,7 +251,7 @@ On inclut simplement dans la docstring les informations pour l’utilisation d�
 """
 Description 
 
-{==Code généré par : OpenAI. (2023). ChatGPT (version 3 août 2023) [Modèle massif de ==}
+{==Code généré par : OpenAI. (2023). ChatGPT (version 15 mars 2023) [Modèle massif de ==}
 {==langage]. https://chat.openai.com/chat==}
 
 Keywords : …
@@ -263,7 +263,7 @@ Keywords : …
 """
 Description 
 
-{==Code partiellement généré par : OpenAI. (2023). ChatGPT (version 3 août 2023) ==}
+{==Code partiellement généré par : OpenAI. (2023). ChatGPT (version 15 mars 2023) ==}
 {==[Modèle massif de langage]. https://chat.openai.com/chat==}
 
 Keywords : …
@@ -277,7 +277,7 @@ Keywords : …
 Si seulement quelques lignes de code sont généré, alors on introduit un commentaire court dans le code.
 
 ```
-{==// Généré par OpenAI. (2023). ChatGPT (version 3 août 2023) [Modèle massif de langage]. https://chat.openai.com/chat==}
+{==// Généré par OpenAI. (2023). ChatGPT (version 15 mars 2023) [Modèle massif de langage]. https://chat.openai.com/chat==}
 
 Code
 
@@ -287,9 +287,9 @@ Code
 
 # Modèles de citation
 
-## ChatGPT (Modèle du 3 août 2023)
+## ChatGPT (Modèle du 15 mars 2023)
 
-    OpenAI. (2023). ChatGPT (version 3 août 2023) [Modèle massif de langage]. https://chat.openai.com/chat
+    OpenAI. (2023). ChatGPT (version 15 mars 2023) [Modèle massif de langage]. https://chat.openai.com/chat
 
 ## GitHub Copilot (Modèle de février 2023)
 
