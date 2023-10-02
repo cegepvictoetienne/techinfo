@@ -45,6 +45,7 @@ nav:
   - 'Références':
       - 'Abréviations': 'abreviations.md'
       - 'Traductions': 'traductions.md'
+  - 'Guide Git': 'git.md'
   - 'Guide Mac':
       - 'Page principale': 'guidemac/index.md'
       - 'Installation':
