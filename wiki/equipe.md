@@ -1,11 +1,5 @@
 # Présentation de l'équipe
 
-# Ben Ayed Alaidine
-
-![ben-ayed-alaidine](./assets/ben-ayed-alaidine.jpeg)
-
-[Ouvrir une fenêtre de message Teams pour Alaidine](https://teams.microsoft.com/l/chat/0/0?tenantId=9d6cf526-ad81-46f8-a73a-a507aaf06cda&users=BENAYED.ALAIDINE@cegepvicto.ca)
-
 # Carine Croteau
 
 ![carine-croteau](./assets/carine-croteau.jpeg)
@@ -42,7 +36,17 @@ Enseignant en informatique au Cégep depuis 2021
 
 # François Mercier
 
-![francois-mercier](./assets/francois-mercier.jpeg)
+![francois-mercier](./assets/francois-mercier.png){: style="width:400px"}
+
+Enseignant en informatique au Cégep depuis 2021.
+
+
+**Intérêts / spécialités de l'informatique :**   Réseautique, Développement Web, Soutient technique, Bureautique, Graphisme.
+
+ 
+
+**Intérêts personnels :**  Jeu d'échecs, Jeux de rôles, Improvisation, Prestidigitation, Rénovations intérieures, Pétanque (oui-oui) et à la limite Soccer, mais en mode "pousse pas trop papa yé pu jeune".
+
 
 [Ouvrir une fenêtre de message Teams pour François](https://teams.microsoft.com/l/chat/0/0?tenantId=9d6cf526-ad81-46f8-a73a-a507aaf06cda&users=MERCIER.FRANCOIS@cegepvicto.ca)
 
