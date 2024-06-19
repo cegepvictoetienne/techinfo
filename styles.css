@@ -1,0 +1,76 @@
+#calendar {
+  display: grid;
+  grid-template-columns: 40px repeat(31, 1fr); /* 1 for time label + 5 days * 4 slots per day */
+  grid-auto-rows: minmax(40px, auto);
+  grid-gap: 1px;
+}
+
+.time-slot-row {
+  display: contents; /* Allows individual cells to be treated as part of the main grid */
+}
+
+.heading {
+  font-weight: bold; /* Making headers bold */
+}
+
+.day-slot {
+  padding: 5px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.appointment {
+  border: 0px solid black;
+  padding: 2px;
+  background-color: #f0f0f0; /* Placeholder background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appointment-details {
+  display: none;
+  position: absolute;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.appointment:hover .appointment-details {
+  display: block;
+}
+
+.Etienne {
+  background-color: #f8d7da;
+}
+.Alexandre {
+  background-color: #d4edda;
+}
+.Carine {
+  background-color: #dd50c5;
+}
+.Mathieu {
+  background-color: #cddd50;
+}
+.Christiane {
+  background-color: #b91e1e;
+}
+.Francois {
+  background-color: #83a9f1;
+}
+.Frederick {
+  background-color: #f1c183;
+}
+.Simon {
+  background-color: #83f1ea;
+}
+.Sebastien {
+  background-color: #c696e4;
+}
+.Cirine {
+  background-color: #c0d4ee;
+}
+.Vincent {
+  background-color: #f3a838;
+}
