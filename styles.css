@@ -1,6 +1,6 @@
 #calendar {
   display: grid;
-  grid-template-columns: 40px repeat(31, 1fr); /* 1 for time label + 5 days * 4 slots per day */
+  grid-template-columns: 48px repeat(31, 1fr); /* 1 for time label + 5 days * 4 slots per day */
   grid-auto-rows: minmax(40px, auto);
   grid-gap: 1px;
 }
@@ -22,6 +22,8 @@
 .appointment {
   border: 0px solid black;
   padding: 2px;
+  margin: 1px;
+  border-radius: 5px;
   background-color: #f0f0f0; /* Placeholder background */
   display: flex;
   align-items: center;
@@ -41,6 +43,23 @@
   display: block;
 }
 
+.legend {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  margin-top: 10px;
+  max-width: 400px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 5px;
+}
 .Etienne {
   background-color: #f8d7da;
 }
@@ -55,6 +74,7 @@
 }
 .Christiane {
   background-color: #b91e1e;
+  color: white;
 }
 .Francois {
   background-color: #83a9f1;
