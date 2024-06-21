@@ -28,12 +28,14 @@ plugins:
 
 extra_css:
   - css/extra.css
+  - css/horaire.css
 
 extra_javascript:
   - javascript/alltarget.js
 
 nav:
   - 'Page principale': 'index.md'
+  - 'Horaire des professeurs': 'horaire.md'
   - 'Demander du tutorat': 'tutorat.md'
   - 'Équipe': 'equipe.md'
   - 'Stages':
