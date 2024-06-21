@@ -1,6 +1,6 @@
 #calendar {
   display: grid;
-  grid-template-columns: 100px repeat(45, 1fr);
+  grid-template-columns: 100px repeat(40, 1fr);
   grid-auto-rows: minmax(30px, auto);
   grid-gap: 1px;
 }
@@ -14,7 +14,7 @@
 }
 
 .day-slot {
-  padding: 5px;
+  padding: 3px;
   border: 1px solid #ccc;
   text-align: center;
 }
@@ -93,4 +93,10 @@
 }
 .Vincent {
   background-color: #f3a838;
+}
+.Departement {
+  background-color: #f5efe6;
+}
+.Departement .title {
+  rotate: 90deg;
 }
