@@ -96,21 +96,21 @@ Elle est disponible sur [Omnivox](https://cegepvicto.omnivox.ca), dans la commun
 
 - [Aide pédagogique individuel (élèves internationaux)](https://www.cegepvicto.ca/eleves-actuels/services-eleve/aides-pedagogiques-individuels/) 
 
-    - Béatrice Laroche (local C-102)
+    - Valérie Bérubé (local C-104)
     - S'occupe de votre cheminement d'élève  
 
 - Coordination de département  
 
-    - [Alexandre Ouellet](equipe.md/#alexandre-ouellet) (local C-207)
+    - [Alexandre Ouellet](equipe.md) (local C-207)
    - S'occupe des litiges, qualité de la formation et environnement physique
 
 - Coordination de programme  
 
-    - [Étienne Rivard](equipe.md/#etienne-rivard) (local C-207 / Teams)
+    - [Mathieu Fréchette](equipe.md) (local C-207 / Teams)
     - S'occupe du suivi de la réussite et des activités de programme
 
 - Responsable stages ATE  
 
-    - [Étienne Rivard](equipe.md/#etienne-rivard) (local C-207 / Teams)
+    - [Étienne Rivard](equipe.md) (local C-207 / Teams)
 
 ---

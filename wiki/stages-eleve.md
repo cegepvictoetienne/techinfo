@@ -163,7 +163,6 @@ Possibilité de stage à l’international :
 
 Contactez un de vos professeurs :  
 
-- [Étienne Rivard](equipe.md/#etienne-rivard)  
-- [François Mercier](equipe.md/#francois-mercier) 
-- [Mathieu Fréchette](equipe.md/#mathieu-frechette)  
-- [Simon Tousignant](equipe.md/#simon-tousignant)  
+- [Étienne Rivard](equipe.md)  
+- [François Mercier](equipe.md) 
+- [Mathieu Fréchette](equipe.md)   
