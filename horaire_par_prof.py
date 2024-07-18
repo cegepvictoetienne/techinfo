@@ -26,9 +26,14 @@ REUNION_DEPARTEMENT = {
 
 def generer_details_cours(cour, ligne):
     colonne = int(cour["heure_debut"].split(":")[0]) - 7;
+    if not cour["groupe"] == "None":
+        groupe = f'<span class="cal-class-group">gr. {cour["groupe"]}</span>'
+    else:
+        groupe = ""
+
     return f'''<div class="cal-class {cour['prof']}" style="grid-column: {colonne} / span {cour['span']}; grid-row: {ligne};">
                 <div class="cal-info">
-                    <span class="cal-class-time">{cour["heure_debut"]} - {cour["heure_fin"]}</span>
+                    <div class="cal-class-lign-haut"><span class="cal-class-time">{cour["heure_debut"]} - {cour["heure_fin"]}</span>{groupe}</div>
                     <span class="cal-class-title">{cour["titre"]}</span>
                     <div class="cal-class-lign"><span class="cal-class-professor">{cour["prof"]}</span><span class="cal-class-location">{cour["local"]}</span></div>
                 </div>
@@ -42,7 +47,7 @@ def generer_horaire_de_excel(chemin_fichier_excel, chemin_fichier_sortie):
     
     profs = {}
     for row in ws.iter_rows(min_row=2, values_only=True):
-        jour, heure_debut, heure_fin, span, prof, titre, local, initiales = row
+        jour, heure_debut, heure_fin, span, prof, titre, local, initiales, groupe = row
         if prof not in profs:
             profs[prof] = { "nom": prof, "initiales": initiales, "cours": {} }
         if jour not in profs[prof]["cours"]:
@@ -55,6 +60,7 @@ def generer_horaire_de_excel(chemin_fichier_excel, chemin_fichier_sortie):
             "titre": titre,
             "local": local,
             "initiales": initiales,
+            "groupe": groupe
         })
 
     # Début de la génération du contenu Markdown
