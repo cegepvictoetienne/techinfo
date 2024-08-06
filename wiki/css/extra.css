@@ -124,6 +124,6 @@ article a[href^="https://"]::after
 }
 
 /* Maximum space for text block */
-.md-grid {
+.codesandbox {
   max-width: 100%; /* or 100%, if you want to stretch to full-width */
 }
