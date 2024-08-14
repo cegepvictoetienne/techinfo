@@ -4,7 +4,7 @@
 <div id="cal-calendar">
 <div class="cal-column professeur">
     <div></div>
-    <div>Professeur</div><div>Alexandre</div><div>Carine</div><div>Christiane</div><div>Cirine</div><div>Etienne</div><div>Francois</div><div>Frederick</div><div>Mathieu</div><div>Sebastien</div><div>Simon</div><div>Vincent</div></div>
+    <div>Professeur</div><div>Alexandre</div><div>Carine</div><div>Christiane</div><div>Cirine</div><div>Etienne</div><div>Francois</div><div>Frederick</div><div>Mathieu</div><div>Nouveau</div><div>Sebastien</div><div>Simon</div></div>
 <div class="cal-column cal-day lundi"><div class="cal-day-heading">Lundi</div><div class="cal-hour-heading">8</div><div class="cal-hour-heading">9</div><div class="cal-hour-heading">10</div><div class="cal-hour-heading">11</div><div class="cal-hour-heading">12</div><div class="cal-hour-heading">13</div><div class="cal-hour-heading">14</div><div class="cal-hour-heading">15</div><div class="cal-hour-heading">16</div><div class="cal-class Alexandre" style="grid-column: 1 / span 2; grid-row: 3;">
                 <div class="cal-info">
                     <div class="cal-class-lign-haut"><span class="cal-class-time">8:15 - 10:05</span><span class="cal-class-group">gr. 1</span></div>
@@ -101,13 +101,13 @@
                     <span class="cal-class-title">Design Web</span>
                     <div class="cal-class-lign"><span class="cal-class-professor">Mathieu</span><span class="cal-class-location">C209</span></div>
                 </div>
-            </div><div class="cal-class Sebastien" style="grid-column: 3 / span 2; grid-row: 11;">
+            </div><div class="cal-class Sebastien" style="grid-column: 3 / span 2; grid-row: 12;">
                 <div class="cal-info">
                     <div class="cal-class-lign-haut"><span class="cal-class-time">10:15 - 12:05</span><span class="cal-class-group">gr. 1</span></div>
                     <span class="cal-class-title">Objets connecté 1</span>
                     <div class="cal-class-lign"><span class="cal-class-professor">Sebastien</span><span class="cal-class-location">C209</span></div>
                 </div>
-            </div><div class="cal-class Sebastien" style="grid-column: 7 / span 3; grid-row: 11;">
+            </div><div class="cal-class Sebastien" style="grid-column: 7 / span 3; grid-row: 12;">
                 <div class="cal-info">
                     <div class="cal-class-lign-haut"><span class="cal-class-time">14:15 - 17:05</span></div>
                     <span class="cal-class-title">Ateliers pédagogiques</span>
@@ -156,35 +156,35 @@
                     <span class="cal-class-title">CFTV</span>
                     <div class="cal-class-lign"><span class="cal-class-professor">Mathieu</span><span class="cal-class-location">Hors du cégep</span></div>
                 </div>
-            </div><div class="cal-class Simon" style="grid-column: 1 / span 2; grid-row: 12;">
+            </div><div class="cal-class Nouveau" style="grid-column: 1 / span 3; grid-row: 11;">
+                <div class="cal-info">
+                    <div class="cal-class-lign-haut"><span class="cal-class-time">8:15 - 11:05</span><span class="cal-class-group">gr. 1</span></div>
+                    <span class="cal-class-title">Développement Web 2</span>
+                    <div class="cal-class-lign"><span class="cal-class-professor">Nouveau</span><span class="cal-class-location">C209</span></div>
+                </div>
+            </div><div class="cal-class Simon" style="grid-column: 1 / span 2; grid-row: 13;">
                 <div class="cal-info">
                     <div class="cal-class-lign-haut"><span class="cal-class-time">8:15 - 10:05</span><span class="cal-class-group">gr. 1</span></div>
                     <span class="cal-class-title">Fonctionnement de l'ordinateur</span>
                     <div class="cal-class-lign"><span class="cal-class-professor">Simon</span><span class="cal-class-location">C205</span></div>
                 </div>
-            </div><div class="cal-class Simon" style="grid-column: 3 / span 2; grid-row: 12;">
+            </div><div class="cal-class Simon" style="grid-column: 3 / span 2; grid-row: 13;">
                 <div class="cal-info">
                     <div class="cal-class-lign-haut"><span class="cal-class-time">10:15 - 12:05</span><span class="cal-class-group">gr. 2</span></div>
                     <span class="cal-class-title">Fonctionnement de l'ordinateur</span>
                     <div class="cal-class-lign"><span class="cal-class-professor">Simon</span><span class="cal-class-location">C205</span></div>
                 </div>
-            </div><div class="cal-class Simon" style="grid-column: 6 / span 2; grid-row: 12;">
+            </div><div class="cal-class Simon" style="grid-column: 6 / span 2; grid-row: 13;">
                 <div class="cal-info">
                     <div class="cal-class-lign-haut"><span class="cal-class-time">13:15 - 15:05</span><span class="cal-class-group">gr. 1</span></div>
                     <span class="cal-class-title">Fonctionnement de l'ordinateur</span>
                     <div class="cal-class-lign"><span class="cal-class-professor">Simon</span><span class="cal-class-location">C205</span></div>
                 </div>
-            </div><div class="cal-class Simon" style="grid-column: 8 / span 2; grid-row: 12;">
+            </div><div class="cal-class Simon" style="grid-column: 8 / span 2; grid-row: 13;">
                 <div class="cal-info">
                     <div class="cal-class-lign-haut"><span class="cal-class-time">15:15 - 17:05</span><span class="cal-class-group">gr. 2</span></div>
                     <span class="cal-class-title">Fonctionnement de l'ordinateur</span>
                     <div class="cal-class-lign"><span class="cal-class-professor">Simon</span><span class="cal-class-location">C205</span></div>
-                </div>
-            </div><div class="cal-class Vincent" style="grid-column: 1 / span 3; grid-row: 13;">
-                <div class="cal-info">
-                    <div class="cal-class-lign-haut"><span class="cal-class-time">8:15 - 11:05</span><span class="cal-class-group">gr. 1</span></div>
-                    <span class="cal-class-title">Développement Web 2</span>
-                    <div class="cal-class-lign"><span class="cal-class-professor">Vincent</span><span class="cal-class-location">C209</span></div>
                 </div>
             </div></div>
 <div class="cal-column cal-day mercredi"><div class="cal-day-heading">Mercredi</div><div class="cal-hour-heading">8</div><div class="cal-hour-heading">9</div><div class="cal-hour-heading">10</div><div class="cal-hour-heading">11</div><div class="cal-hour-heading">12</div><div class="cal-hour-heading">13</div><div class="cal-hour-heading">14</div><div class="cal-hour-heading">15</div><div class="cal-hour-heading">16</div><div class="cal-class Departement" style="grid-column: 1 / span 2; grid-row: 3 / span 11;">
@@ -254,17 +254,17 @@
                     <span class="cal-class-title">CFTV</span>
                     <div class="cal-class-lign"><span class="cal-class-professor">Mathieu</span><span class="cal-class-location">Hors du cégep</span></div>
                 </div>
-            </div><div class="cal-class Simon" style="grid-column: 5 / span 2; grid-row: 12;">
+            </div><div class="cal-class Nouveau" style="grid-column: 8 / span 2; grid-row: 11;">
+                <div class="cal-info">
+                    <div class="cal-class-lign-haut"><span class="cal-class-time">15:15 - 17:05</span><span class="cal-class-group">gr. 1</span></div>
+                    <span class="cal-class-title">Développement Web 2</span>
+                    <div class="cal-class-lign"><span class="cal-class-professor">Nouveau</span><span class="cal-class-location">E102</span></div>
+                </div>
+            </div><div class="cal-class Simon" style="grid-column: 5 / span 2; grid-row: 13;">
                 <div class="cal-info">
                     <div class="cal-class-lign-haut"><span class="cal-class-time">12:15 - 14:05</span><span class="cal-class-group">gr. 2</span></div>
                     <span class="cal-class-title">Logiciel de gestion</span>
                     <div class="cal-class-lign"><span class="cal-class-professor">Simon</span><span class="cal-class-location">E202</span></div>
-                </div>
-            </div><div class="cal-class Vincent" style="grid-column: 8 / span 2; grid-row: 13;">
-                <div class="cal-info">
-                    <div class="cal-class-lign-haut"><span class="cal-class-time">15:15 - 17:05</span><span class="cal-class-group">gr. 1</span></div>
-                    <span class="cal-class-title">Développement Web 2</span>
-                    <div class="cal-class-lign"><span class="cal-class-professor">Vincent</span><span class="cal-class-location">E102</span></div>
                 </div>
             </div></div>
 <div class="cal-column cal-day jeudi"><div class="cal-day-heading">Jeudi</div><div class="cal-hour-heading">8</div><div class="cal-hour-heading">9</div><div class="cal-hour-heading">10</div><div class="cal-hour-heading">11</div><div class="cal-hour-heading">12</div><div class="cal-hour-heading">13</div><div class="cal-hour-heading">14</div><div class="cal-hour-heading">15</div><div class="cal-hour-heading">16</div><div class="cal-class Alexandre" style="grid-column: 1 / span 2; grid-row: 3;">
@@ -333,19 +333,19 @@
                     <span class="cal-class-title">Technologies émergentes</span>
                     <div class="cal-class-lign"><span class="cal-class-professor">Mathieu</span><span class="cal-class-location">C205</span></div>
                 </div>
-            </div><div class="cal-class Sebastien" style="grid-column: 2 / span 3; grid-row: 11;">
+            </div><div class="cal-class Sebastien" style="grid-column: 2 / span 3; grid-row: 12;">
                 <div class="cal-info">
                     <div class="cal-class-lign-haut"><span class="cal-class-time">9:15 - 12:05</span><span class="cal-class-group">gr. 1</span></div>
                     <span class="cal-class-title">Nano-ordinateurs</span>
                     <div class="cal-class-lign"><span class="cal-class-professor">Sebastien</span><span class="cal-class-location">C205</span></div>
                 </div>
-            </div><div class="cal-class Sebastien" style="grid-column: 6 / span 2; grid-row: 11;">
+            </div><div class="cal-class Sebastien" style="grid-column: 6 / span 2; grid-row: 12;">
                 <div class="cal-info">
                     <div class="cal-class-lign-haut"><span class="cal-class-time">13:15 - 15:05</span><span class="cal-class-group">gr. 1</span></div>
                     <span class="cal-class-title">Objets connecté 1</span>
                     <div class="cal-class-lign"><span class="cal-class-professor">Sebastien</span><span class="cal-class-location">C209</span></div>
                 </div>
-            </div><div class="cal-class Simon" style="grid-column: 6 / span 2; grid-row: 12;">
+            </div><div class="cal-class Simon" style="grid-column: 6 / span 2; grid-row: 13;">
                 <div class="cal-info">
                     <div class="cal-class-lign-haut"><span class="cal-class-time">13:15 - 15:05</span></div>
                     <span class="cal-class-title">Défi sciences</span>
@@ -400,7 +400,7 @@
                     <span class="cal-class-title">Design Web</span>
                     <div class="cal-class-lign"><span class="cal-class-professor">Mathieu</span><span class="cal-class-location">C209</span></div>
                 </div>
-            </div><div class="cal-class Simon" style="grid-column: 5 / span 3; grid-row: 12;">
+            </div><div class="cal-class Simon" style="grid-column: 5 / span 3; grid-row: 13;">
                 <div class="cal-info">
                     <div class="cal-class-lign-haut"><span class="cal-class-time">12:15 - 15:05</span><span class="cal-class-group">gr. 2</span></div>
                     <span class="cal-class-title">Logiciel de gestion</span>
