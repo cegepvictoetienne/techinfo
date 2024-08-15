@@ -96,7 +96,7 @@ Elle est disponible sur [Omnivox](https://cegepvicto.omnivox.ca), dans la commun
 
 - [Aide pédagogique individuel (élèves internationaux)](https://www.cegepvicto.ca/eleves-actuels/services-eleve/aides-pedagogiques-individuels/) 
 
-    - Valérie Bérubé (local C-104)
+    - Marc-André Martineau-Veilleux (local C-102)
     - S'occupe de votre cheminement d'élève  
 
 - Coordination de département  

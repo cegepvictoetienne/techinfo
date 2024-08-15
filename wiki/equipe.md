@@ -78,7 +78,7 @@
 
     <div class="team-card-header"></div>
     <div class="team-card-image">
-        <img src="https://avatar.iran.liara.run/public/girl" alt="Cirine Chaieb">
+        <img src="/assets/cirine-chaieb.png" alt="Cirine Chaieb">
     </div>
         
     <div class="team-card-info">
@@ -198,7 +198,7 @@
 
     <div class="team-card-header"></div>
     <div class="team-card-image">
-        <img src="https://avatar.iran.liara.run/public/boy" alt="Sébastien Trottier">
+        <img src="/assets/sebastien_trottier.jpg" alt="Sébastien Trottier">
     </div>
         
     <div class="team-card-info">
@@ -222,7 +222,7 @@
 
     <div class="team-card-header"></div>
     <div class="team-card-image">
-        <img src="https://avatar.iran.liara.run/public/boy" alt="Simon Tousignant">
+        <img src="/assets/placeholder-man.webp" alt="Simon Tousignant">
     </div>
         
     <div class="team-card-info">
