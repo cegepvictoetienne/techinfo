@@ -131,11 +131,13 @@ def generer_horaire_de_excel(chemin_fichier_excel, chemin_fichier_sortie):
 
 <div id="cal-calendar">
 { colonne_prof }
+<div class="cal-scroll">
 { colonne_lundi }
 { colonne_mardi }
 { colonne_mercredi }
 { colonne_jeudi }
 { colonne_vendredi }
+</div>
 </div>
 '''
     with open(chemin_fichier_sortie, 'w', encoding='utf-8') as f:
