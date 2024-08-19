@@ -36,6 +36,7 @@ extra_javascript:
 
 nav:
   - 'Page principale': 'index.md'
+  - 'Grille des préalables': 'grille.md'
   - 'Horaire des professeurs': 'horaire.md'
   - 'Demander du tutorat': 'tutorat.md'
   - 'Équipe': 'equipe.md'
@@ -48,6 +49,7 @@ nav:
   - 'Références':
       - 'Abréviations': 'abreviations.md'
       - 'Traductions': 'traductions.md'
+      - 'Rafrachir les compétences': 'rafraichissement.md'
   - 'Visual Studio Code':
       - 'Extensions': 'vscode/extensions.md'
   - 'Guide Mac':
@@ -65,8 +67,6 @@ nav:
           - 'Créer ISO': 'guidemac/creer-iso.md'
           - 'Convertir vmdk vers qcow2': 'guidemac/convertir-vmdk-vers-qcow2.md'
           - 'Convertir qcow2 vers vmdk': 'guidemac/convertir-qcow2-vers-vmdk.md'
-  - 'Profs':
-      - 'Ressources': 'profs/ressources.md'
 
 markdown_extensions:
   - admonition

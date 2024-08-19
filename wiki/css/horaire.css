@@ -33,6 +33,10 @@
   border-radius: 4px;
 }
 
+.cal-wrap-professeur {
+  padding-top: 30px;
+}
+
 .professeur > div {
   display: flex;
   align-items: center;
@@ -74,7 +78,8 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 5px;
-  padding: 0px;
+  padding-top: 30px;
+  padding-right: 50px;
   width: 60vw;
   overflow-x: auto;
 }

@@ -44,7 +44,7 @@ Cours|	Titre
 420-6C3-VI|	Projet personnel
 
 
-Un graphique du parcours incluant tous les cours et leurs préalables est [ici](http://informatique.apical.xyz)  
+Un graphique du parcours incluant tous les cours et leurs préalables est [ici](grille.md).  
 
 ---
 
@@ -77,6 +77,7 @@ Elle est disponible sur [Omnivox](https://cegepvicto.omnivox.ca), dans la commun
     - Oublie de matériel lors d'évaluation
     - Qualité du français
 
+Note sur le [rafraîchissement des éléments de compétence](rafraichissement.md) dans les cours de 2ème et 3ème années.
 --- 
 
 # Ressources du Cégep

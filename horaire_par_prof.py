@@ -67,7 +67,7 @@ def generer_horaire_de_excel(chemin_fichier_excel, chemin_fichier_sortie):
     
     # Entête des colonnes
     # Colonnne des professeurs
-    colonne_prof = '''<div class="cal-column professeur">
+    colonne_prof = '''<div class="cal-wrap-professeur"><div class="cal-column professeur">
     <div></div>
     <div>Professeur</div>'''
     
@@ -87,7 +87,7 @@ def generer_horaire_de_excel(chemin_fichier_excel, chemin_fichier_sortie):
         colonne_vendredi += f'<div class="cal-hour-heading">{heure}</div>'
 
     # Ajout de la réunion départementale
-    colonne_mercredi += f'''<div class="cal-class Departement" style="grid-column: 1 / span 2; grid-row: 3 / span 11;">
+    colonne_mercredi += f'''<div class="cal-class Departement" style="grid-column: 1 / span 2; grid-row: 3 / span 10;">
                 <div class="title"><div>{REUNION_DEPARTEMENT["titre"]}</div></div>
                 <div class="cal-info">
                     <span class="cal-class-time">{REUNION_DEPARTEMENT["heure_debut"]} - {REUNION_DEPARTEMENT["heure_fin"]}</span>
@@ -117,7 +117,7 @@ def generer_horaire_de_excel(chemin_fichier_excel, chemin_fichier_sortie):
 
 
     # Fermeture des colonnes
-    colonne_prof += '</div>'
+    colonne_prof += '</div></div>'
     colonne_lundi += '</div>'
     colonne_mardi += '</div>'
     colonne_mercredi += '</div>'
