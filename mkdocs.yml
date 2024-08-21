@@ -49,7 +49,7 @@ nav:
   - 'Références':
       - 'Abréviations': 'abreviations.md'
       - 'Traductions': 'traductions.md'
-      - 'Rafrachir les compétences': 'rafraichissement.md'
+      - 'Rafraîchir les compétences': 'rafraichissement.md'
   - 'Visual Studio Code':
       - 'Extensions': 'vscode/extensions.md'
   - 'Guide Mac':
