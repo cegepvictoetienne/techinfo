@@ -8,10 +8,11 @@
   --cal-Etienne: #394a51;
   --cal-Francois: #7fa99b;
   --cal-Frederick: #fdc57b;
-  --cal-Mathieu: #7fa99b;
-  --cal-Sebastien: #394a51;
-  --cal-Simon: #7fa99b;
-  --cal-Vincent: #fdc57b;
+  --cal-Gabriel: #7fa99b;
+  --cal-Mathieu: #394a51;
+  --cal-Sebastien: #7fa99b;
+  --cal-Simon: #fdc57b;
+
   --cal-Departement: #fdc57b;
   --tooltip-triangle-size: 0.5rem;
 }
@@ -203,8 +204,8 @@
 .Simon {
   background-color: var(--cal-Simon);
 }
-.Nouveau {
-  background-color: var(--cal-Vincent);
+.Gabriel {
+  background-color: var(--cal-Gabriel);
 }
 .Departement {
   background-color: var(--cal-Departement);
