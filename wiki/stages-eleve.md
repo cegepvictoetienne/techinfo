@@ -6,22 +6,22 @@
 gantt
     title Processus de l'ATE
     dateFormat YYYY-MM-DD
-    section A2023
-        Rencontre ATE          :a1, 2023-09-20, 1d
-        Remplir formulaire d'adhésion    :after a1, 20d
-    section H2024
-        Faire son CV :2024-01-12, 10d
-        Appliquer aux offres de stage    :2024-03-11, 60d
-    section É2024
-        Stage :s1, 2024-05-21, 84d
+    section A2024
+        Rencontre ATE          :a1, 2024-10-02, 1d
+        Remplir formulaire d'adhésion    :after a1, 8d
+    section H2025
+        Faire son CV :2025-01-12, 10d
+        Appliquer aux offres de stage    :2025-03-11, 60d
+    section É2025
+        Stage :s1, 2025-05-26, 84d
         Rapport de stage :after s1, 14d
 ```
 
-- Rencontre ATE - 2023-09-20
-- Remplir formulaire d'adhésion - avant 2023-10-10
-- Faire son CV - Entre 2024-01-12 et 2024-01-22
-- Appliquer aux offres de stage - Entre 2024-03-11 et 2024-05-11
-- Stage - Débute 2024-05-21 pour 10 à 12 semaines
+- Rencontre ATE - 2024-10-02
+- Remplir formulaire d'adhésion - avant 2024-10-10
+- Faire son CV - Entre 2025-01-12 et 2025-01-22
+- Appliquer aux offres de stage - Entre 2025-03-11 et 2025-05-11
+- Stage - Débute 2025-05-26 pour 10 à 12 semaines
 - Rapport de stage - À la fin du stage
 
 # Séquence ATE
@@ -64,7 +64,7 @@ gantt
 
 # Contrat d'adhésion  
 
-Voici le contrat d'adhésion à remplir avant le __10 octobre 2023__ :  [Contrat d'adhésion](https://forms.office.com/r/h4TifC6sRJ)  
+Voici le contrat d'adhésion à remplir avant le __10 octobre 2024__ :  [Contrat d'adhésion](https://forms.office.com/r/h4TifC6sRJ)  
 
 # Préalables
 
@@ -101,8 +101,8 @@ Le stage de niveau 3 n’est pas contingenté.
 
 Note : Il est nécessaire d’avoir effectué un stage de niveau 1 ou de niveau 2 pour accéder au stage de niveau 3.
 
-Dates des stages: ± 22 mai 2024 au 31 juillet 2024 (10 semaines) – Limite 15 août 2024
-Cours intensif - Projet personnel (45 h) ± 1 août au 12 août 2024
+Dates des stages: ± 26 mai 2025 au 31 juillet 2025 (8 à 10 semaines) – Limite 15 août 2025
+Cours intensif - Projet personnel (45 h) ± 28 juillet au 7 août 2025
 
 !!! Warning "Attention"
     Pour chacun des stages, malgré l’atteinte des préalables, le département se réserve le droit de suspendre la démarche de stage d’une étudiante, d’un étudiant, s’il juge que le savoir-être, l’assiduité en classe ou la participation aux activités en vue du stage, sont de nature à compromettre l’intégration en entreprise ou la réussite de son stage.
