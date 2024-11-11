@@ -112,6 +112,6 @@ Note sur le [rafraîchissement des éléments de compétence](rafraichissement.m
 
 - Responsable stages ATE  
 
-    - [Étienne Rivard](equipe.md) (local C-207 / Teams)
+    - [François Mercier](equipe.md) (local C-207 / Teams)
 
 ---

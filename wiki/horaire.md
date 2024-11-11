@@ -170,7 +170,7 @@
                     <div class="cal-class-lign"><span class="cal-class-professor">Simon</span><span class="cal-class-location">C205</span></div>
                 </div>
             </div></div>
-<div class="cal-column cal-day mercredi"><div class="cal-day-heading">Mercredi</div><div class="cal-hour-heading">8</div><div class="cal-hour-heading">9</div><div class="cal-hour-heading">10</div><div class="cal-hour-heading">11</div><div class="cal-hour-heading">12</div><div class="cal-hour-heading">13</div><div class="cal-hour-heading">14</div><div class="cal-hour-heading">15</div><div class="cal-hour-heading">16</div><div class="cal-class Departement" style="grid-column: 1 / span 2; grid-row: 3 / span 10;">
+<div class="cal-column cal-day mercredi"><div class="cal-day-heading">Mercredi</div><div class="cal-hour-heading">8</div><div class="cal-hour-heading">9</div><div class="cal-hour-heading">10</div><div class="cal-hour-heading">11</div><div class="cal-hour-heading">12</div><div class="cal-hour-heading">13</div><div class="cal-hour-heading">14</div><div class="cal-hour-heading">15</div><div class="cal-hour-heading">16</div><div class="cal-class Departement" style="grid-column: 1 / span 2; grid-row: 3 / span 11;">
                 <div class="title"><div>Réunion&nbsp;départementale</div></div>
                 <div class="cal-info">
                     <span class="cal-class-time">8:15 - 10:05</span>
