@@ -7,7 +7,7 @@
   --cal-Cirine: #7fa99b;
   --cal-Etienne: #394a51;
   --cal-Francois: #7fa99b;
-  --cal-Frederick: #fdc57b;
+  --cal-Frederik: #fdc57b;
   --cal-Gabriel: #7fa99b;
   --cal-Mathieu: #394a51;
   --cal-Sebastien: #7fa99b;
@@ -123,6 +123,10 @@
   flex-direction: column;
 }
 
+.cal-info-fin {
+  right: calc(100% - 50px);
+}
+
 .cal-class-time {
   font-size: 0.6rem;
   display: inline-block;
@@ -172,6 +176,26 @@
   -webkit-transform: translateX(var(--translateX));
 }
 
+.cal-info-fin::after {
+  content: '';
+  position: absolute;
+
+  height: 0;
+  width: 0;
+  top: 100%;
+  right: 100%;
+
+  border-style: solid;
+  border-width: var(--tooltip-triangle-size) var(--tooltip-triangle-size) 0
+    var(--tooltip-triangle-size);
+  border-color: rgba(0, 0, 0, 0.656) transparent transparent transparent;
+
+  --translateX: 550%;
+  transform: translateX(var(--translateX));
+  -moz-transform: translateX(var(--translateX));
+  -webkit-transform: translateX(var(--translateX));
+}
+
 /* Couleur des professeurs */
 
 .Alexandre {
@@ -192,8 +216,8 @@
 .Francois {
   background-color: var(--cal-Francois);
 }
-.Frederick {
-  background-color: var(--cal-Frederick);
+.Frederik {
+  background-color: var(--cal-Frederik);
 }
 .Mathieu {
   background-color: var(--cal-Mathieu);
