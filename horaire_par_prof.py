@@ -10,9 +10,9 @@
 
 from openpyxl import load_workbook
 
-PAR_JOUR = 9
+PAR_JOUR = 7
 LIGNE_DEBUT_COURS = 3
-TITRE_PAGE = "# Horaire des professeurs pour l'automne 2024"
+TITRE_PAGE = "# Horaire des professeurs pour l'hiver 2025"
 REUNION_DEPARTEMENT = {
     "titre":"Réunion&nbsp;départementale",
     "heure_debut":"8:15",
@@ -24,15 +24,20 @@ REUNION_DEPARTEMENT = {
     "initiales": "DI"
 }
 
-def generer_details_cours(cour, ligne):
+def generer_details_cours(cour, ligne, droite=False):
     colonne = int(cour["heure_debut"].split(":")[0]) - 7;
     if not cour["groupe"] == "None":
         groupe = f'<span class="cal-class-group">gr. {cour["groupe"]}</span>'
     else:
         groupe = ""
 
+    if droite:
+        sidroite = "cal-info-fin"
+    else:
+        sidroite = ""
+
     return f'''<div class="cal-class {cour['prof']}" style="grid-column: {colonne} / span {cour['span']}; grid-row: {ligne};">
-                <div class="cal-info">
+                <div class="cal-info {sidroite}">
                     <div class="cal-class-lign-haut"><span class="cal-class-time">{cour["heure_debut"]} - {cour["heure_fin"]}</span>{groupe}</div>
                     <span class="cal-class-title">{cour["titre"]}</span>
                     <div class="cal-class-lign"><span class="cal-class-professor">{cour["prof"]}</span><span class="cal-class-location">{cour["local"]}</span></div>
@@ -87,7 +92,7 @@ def generer_horaire_de_excel(chemin_fichier_excel, chemin_fichier_sortie):
         colonne_vendredi += f'<div class="cal-hour-heading">{heure}</div>'
 
     # Ajout de la réunion départementale
-    colonne_mercredi += f'''<div class="cal-class Departement" style="grid-column: 1 / span 2; grid-row: 3 / span 11;">
+    colonne_mercredi += f'''<div class="cal-class Departement" style="grid-column: 1 / span 2; grid-row: 3 / span 9;">
                 <div class="title"><div>{REUNION_DEPARTEMENT["titre"]}</div></div>
                 <div class="cal-info">
                     <span class="cal-class-time">{REUNION_DEPARTEMENT["heure_debut"]} - {REUNION_DEPARTEMENT["heure_fin"]}</span>
@@ -111,9 +116,9 @@ def generer_horaire_de_excel(chemin_fichier_excel, chemin_fichier_sortie):
                     case "Mercredi":
                         colonne_mercredi += generer_details_cours(cour, ligne_prof)
                     case "Jeudi":
-                        colonne_jeudi += generer_details_cours(cour, ligne_prof)
+                        colonne_jeudi += generer_details_cours(cour, ligne_prof, True)
                     case "Vendredi":
-                        colonne_vendredi += generer_details_cours(cour, ligne_prof)
+                        colonne_vendredi += generer_details_cours(cour, ligne_prof, True)
 
 
     # Fermeture des colonnes
