@@ -123,9 +123,9 @@
                     <span class="cal-class-title">Réunion&nbsp;départementale</span>
                     <span class="cal-class-location">C208</span>
                 </div>
-            </div><div class="cal-class Etienne" style="grid-column: 6 / span 2; grid-row: 6;">
+            </div><div class="cal-class Etienne" style="grid-column: 5 / span 2; grid-row: 6;">
                 <div class="cal-info ">
-                    <div class="cal-class-lign-haut"><span class="cal-class-time">13:15 - 15:05</span><span class="cal-class-group">gr. 1</span></div>
+                    <div class="cal-class-lign-haut"><span class="cal-class-time">12:15 - 14:05</span><span class="cal-class-group">gr. 1</span></div>
                     <span class="cal-class-title">Support technique</span>
                     <div class="cal-class-lign"><span class="cal-class-professor">Etienne</span><span class="cal-class-location">C211</span></div>
                 </div>

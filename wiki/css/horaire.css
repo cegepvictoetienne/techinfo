@@ -2,7 +2,6 @@
 :root {
   --cal-color-day: rgb(251, 246, 239);
   --cal-Alexandre: #394a51;
-  --cal-Carine: #7fa99b;
   --cal-Christiane: #fdc57b;
   --cal-Cirine: #7fa99b;
   --cal-Etienne: #394a51;
@@ -85,6 +84,26 @@
   overflow-x: auto;
 }
 
+/* Ensure compatibility with Firefox */
+.cal-info {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  position: absolute;
+  bottom: calc(100% + 12px);
+  transform-origin: top center;
+  z-index: 1;
+  min-width: 180px;
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  background: rgba(0, 0, 0, 0.656);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  color: white;
+  flex-direction: column;
+}
+
 .cal-class:hover > .cal-info {
   display: flex;
   animation: fadeIn 0.4s forwards;
@@ -99,28 +118,31 @@
   }
 }
 
-.cal-info {
+.cal-info::after {
+  content: '';
   position: absolute;
-  bottom: calc(100% + 12px);
-  transform-origin: top center;
-  z-index: 10;
+  height: 0;
+  width: 0;
+  top: 100%;
+  left: 20px;
+  border-style: solid;
+  border-width: var(--tooltip-triangle-size) var(--tooltip-triangle-size) 0
+    var(--tooltip-triangle-size);
+  border-color: rgba(0, 0, 0, 0.656) transparent transparent transparent;
+  transform: translateX(-50%);
+}
 
-  min-width: 180px;
-  white-space: nowrap;
-
-  padding: 0.5rem 1rem;
-  border-radius: 0.4rem;
-
-  background: rgba(0, 0, 0, 0.656);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  color: white;
-
-  display: none;
-  transition: opacity 0.5s ease;
-  opacity: 0;
-
-  flex-direction: column;
+.cal-info-fin::after {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 100%;
+  border-style: solid;
+  border-width: var(--tooltip-triangle-size) var(--tooltip-triangle-size) 0
+    var(--tooltip-triangle-size);
+  border-color: rgba(0, 0, 0, 0.656) transparent transparent transparent;
+  transform: translateX(550%);
 }
 
 .cal-info-fin {
@@ -154,46 +176,6 @@
 
 .cal-class-location {
   text-align: right;
-}
-
-.cal-info::after {
-  content: '';
-  position: absolute;
-
-  height: 0;
-  width: 0;
-  top: 100%;
-  left: 20px;
-
-  border-style: solid;
-  border-width: var(--tooltip-triangle-size) var(--tooltip-triangle-size) 0
-    var(--tooltip-triangle-size);
-  border-color: rgba(0, 0, 0, 0.656) transparent transparent transparent;
-
-  --translateX: -50%;
-  transform: translateX(var(--translateX));
-  -moz-transform: translateX(var(--translateX));
-  -webkit-transform: translateX(var(--translateX));
-}
-
-.cal-info-fin::after {
-  content: '';
-  position: absolute;
-
-  height: 0;
-  width: 0;
-  top: 100%;
-  right: 100%;
-
-  border-style: solid;
-  border-width: var(--tooltip-triangle-size) var(--tooltip-triangle-size) 0
-    var(--tooltip-triangle-size);
-  border-color: rgba(0, 0, 0, 0.656) transparent transparent transparent;
-
-  --translateX: 550%;
-  transform: translateX(var(--translateX));
-  -moz-transform: translateX(var(--translateX));
-  -webkit-transform: translateX(var(--translateX));
 }
 
 /* Couleur des professeurs */
@@ -244,4 +226,8 @@
 
 .Departement > .title > div {
   rotate: 90deg;
+}
+
+.md-sidebar--secondary {
+  display: none !important;
 }
