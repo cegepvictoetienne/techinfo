@@ -21,7 +21,7 @@ gantt
 - Remplir formulaire d'adhésion - avant 2024-10-10
 - Faire son CV - Entre 2025-01-12 et 2025-01-22
 - Appliquer aux offres de stage - Entre 2025-03-11 et 2025-05-11
-- Stage - Débute 2025-05-26 pour 10 à 12 semaines
+- Stage - Débute 2025-05-26 pour une durée minimale de 8 semaines
 - Rapport de stage - À la fin du stage
 
 # Séquence ATE
@@ -36,7 +36,7 @@ gantt
 
 - Études à temps plein
 - Minimum 2 phases (études-stage) d’alternance, maximum 3
-- En TI, les stages sont de 10 semaines
+- En TI, les stages sont de 8 semaines
 - Temps plein, semaines consécutives, sauf si l’entreprise ferme
 - Stages = ajout au programme d’au moins 20 % du nombre d’heures prévues au programme (2518 h = 504 h) cummulé entre les deux stages
 
