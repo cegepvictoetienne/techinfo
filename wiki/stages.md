@@ -8,11 +8,11 @@
 
 ### Quelle est la durée du stage ?
 
-Les stages ont une durée d'au moins **10 semaines** consécutives, sauf si l'entreprise ferme.
+Les stages ont une durée d'au moins **8 semaines** consécutives, sauf si l'entreprise ferme.
 
 ### Quelles sont les dates importantes pour les stages de l'été?
 
-Les stages débutent le 22 mai 2024 et doivent se terminer avant le 16 août 2024 (pour les élèves de 3ème année, la date est le 28 juillet).  
+Les stages débutent le 26 mai 2025 et doivent se terminer avant le 18 août 2025 (pour les élèves de 3ème année, la date est le 28 juillet).  
 
 ### Quel salaire horaire moyen est offert aux stagiaires en entreprise ?
 
@@ -22,7 +22,7 @@ La moyenne des salaires horaires de nos stagiaires se situe entre 20 $ et 25 $.
 
 Vous pouvez recevoir de 24% à 50% du salaire de votre stagiaire. Consultez [accueillez un stagiaire](https://pratiquesrh.com/services/accueillez-un-stagiaire) pour plus d'information.  
 
-### Comment offrir un stage pour l'été 2024?  
+### Comment offrir un stage pour l'été 2025?  
 
 Vous n'avez qu'à [remplir ce formulaire](https://forms.office.com/r/E5xJa2zEmy).  
 
