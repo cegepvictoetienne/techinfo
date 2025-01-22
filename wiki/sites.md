@@ -1,11 +1,21 @@
 # Répertoire des sites de notes de cours
 
+# Mathieu Fréchette
+
+| Sigle | Nom | URL |
+|-------|-----|-----|
+| 420-1E6-VI | Design Web | [Design Web](https://design-web-victo.github.io/)|   
+| 420-4A4-VI | Services Web | [Service Web](https://services-web-victo.github.io/)| 
+| 420-5A3-VI | Technologies émergentes | [Technologies émergentes](https://technologies-emergentes.github.io/)|   
+
+
 # Christiane Lagacé
 
 | Sigle | Nom | URL |
 |-------|-----|-----|
 | 420-2A4-VI | Développement Web 1 | [Apical](https://apical.xyz)|
 | 420-4D4-VI | Applications mobiles 1 | [Apical](https://apical.xyz)|
+
 
 # Étienne Rivard
 
