@@ -34,6 +34,11 @@ extra_css:
 extra_javascript:
   - javascript/alltarget.js
 
+extra:
+  analytics:
+    provider: google
+    property: G-CEJXGD79WZ
+
 nav:
   - 'Page principale': 'index.md'
   - 'Grille des préalables': 'grille.md'
