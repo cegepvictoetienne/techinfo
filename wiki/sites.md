@@ -16,6 +16,9 @@
 | 420-2A4-VI | Développement Web 1 | [Apical](https://apical.xyz)|
 | 420-4D4-VI | Applications mobiles 1 | [Apical](https://apical.xyz)|
 
+# Alexandre Ouellet
+
+[Sites des cours d'Alexandre](https://cours-alexandre-ouellet.github.io/)  
 
 # Étienne Rivard
 
@@ -27,3 +30,4 @@
 | 420-3C4-VI | Piratage éthique | [Piratage](https://piratage.profinfo.ca)|
 | 420-5A5-VI | Développement Web 3 | [Web3](https://web3.profinfo.ca)|
 | 420-6A3-VI | Projet personnel | [Projet personnel](https://projetpersonnel.profinfo.ca)|
+
