@@ -4,13 +4,13 @@
   --cal-Alexandre: #394a51;
   --cal-Christiane: #fdc57b;
   --cal-Cirine: #7fa99b;
-  --cal-Etienne: #394a51;
-  --cal-Francois: #7fa99b;
+  --cal-Etienne: #7fa99b;
+  --cal-Francois: #394a51;
   --cal-Frederik: #fdc57b;
   --cal-Gabriel: #7fa99b;
-  --cal-Mathieu: #394a51;
+  --cal-Mathieu: #7fa99b;
   --cal-Sebastien: #7fa99b;
-  --cal-Simon: #fdc57b;
+  --cal-Simon: #394a51;
 
   --cal-Departement: #fdc57b;
   --tooltip-triangle-size: 0.5rem;
@@ -63,6 +63,7 @@
   align-items: center;
   justify-content: center;
   font-size: 0.6rem;
+  min-width: 15px;
 }
 
 /* Tooltip */
