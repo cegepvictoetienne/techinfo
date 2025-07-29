@@ -50,6 +50,7 @@ nav:
       - 'Pour les élèves': 'stages-eleve.md'
       - 'Pour les employeurs': 'stages.md'
   - 'Intégrité académique':
+      - "Niveaux d'utilisation de l'intelligence artificielle": 'niveaux-ia.md'
       - "Citer l'intelligence artificielle": 'citer-ia.md'
       - 'Code emprunté': 'code-emprunte.md'
   - 'Références':
