@@ -6,7 +6,7 @@
     <div></div>
     <div>Professeur</div><div>Alexandre</div><div>Christiane</div><div>Etienne</div><div>Francois</div><div>Frederik</div><div>Mathieu</div><div>Simon</div></div></div>
 <div class="cal-scroll">
-<div class="cal-column cal-day lundi"><div class="cal-day-heading">Lundi</div><div class="cal-hour-heading">&nbsp;8</div><div class="cal-hour-heading">&nbsp;9</div><div class="cal-hour-heading">10</div><div class="cal-hour-heading">11</div><div class="cal-hour-heading">12</div><div class="cal-hour-heading">13</div><div class="cal-hour-heading">14</div><div class="cal-hour-heading">15</div><div class="cal-hour-heading">16</div><div class="cal-class Alexandre" style="grid-column: 3 / span 3; grid-row: 3;">
+<div class="cal-column cal-day lundi"><div class="cal-day-heading">Lundi</div><div class="cal-hour-heading">8</div><div class="cal-hour-heading">9</div><div class="cal-hour-heading">10</div><div class="cal-hour-heading">11</div><div class="cal-hour-heading">12</div><div class="cal-hour-heading">13</div><div class="cal-hour-heading">14</div><div class="cal-hour-heading">15</div><div class="cal-hour-heading">16</div><div class="cal-class Alexandre" style="grid-column: 3 / span 3; grid-row: 3;">
                 <div class="cal-info ">
                     <div class="cal-class-lign-haut"><span class="cal-class-time">10:15 - 13:05</span><span class="cal-class-group">gr. 1</span></div>
                     <span class="cal-class-title">Projet intégrateur 1</span>
@@ -61,7 +61,7 @@
                     <div class="cal-class-lign"><span class="cal-class-professor">Simon</span><span class="cal-class-location">C205</span></div>
                 </div>
             </div></div>
-<div class="cal-column cal-day mardi"><div class="cal-day-heading">Mardi</div><div class="cal-hour-heading">&nbsp;8</div><div class="cal-hour-heading">&nbsp;9</div><div class="cal-hour-heading">10</div><div class="cal-hour-heading">11</div><div class="cal-hour-heading">12</div><div class="cal-hour-heading">13</div><div class="cal-hour-heading">14</div><div class="cal-hour-heading">15</div><div class="cal-hour-heading">16</div><div class="cal-class Alexandre" style="grid-column: 1 / span 2; grid-row: 3;">
+<div class="cal-column cal-day mardi"><div class="cal-day-heading">Mardi</div><div class="cal-hour-heading">8</div><div class="cal-hour-heading">9</div><div class="cal-hour-heading">10</div><div class="cal-hour-heading">11</div><div class="cal-hour-heading">12</div><div class="cal-hour-heading">13</div><div class="cal-hour-heading">14</div><div class="cal-hour-heading">15</div><div class="cal-hour-heading">16</div><div class="cal-class Alexandre" style="grid-column: 1 / span 2; grid-row: 3;">
                 <div class="cal-info ">
                     <div class="cal-class-lign-haut"><span class="cal-class-time">8:15 - 10:05</span><span class="cal-class-group">gr. 1</span></div>
                     <span class="cal-class-title">Jeux 3D</span>
@@ -98,7 +98,7 @@
                     <div class="cal-class-lign"><span class="cal-class-professor">Francois</span><span class="cal-class-location">C209</span></div>
                 </div>
             </div></div>
-<div class="cal-column cal-day mercredi"><div class="cal-day-heading">Mercredi</div><div class="cal-hour-heading">&nbsp;8</div><div class="cal-hour-heading">&nbsp;9</div><div class="cal-hour-heading">10</div><div class="cal-hour-heading">11</div><div class="cal-hour-heading">12</div><div class="cal-hour-heading">13</div><div class="cal-hour-heading">14</div><div class="cal-hour-heading">15</div><div class="cal-hour-heading">16</div><div class="cal-class Departement" style="grid-column: 1 / span 2; grid-row: 3 / span 7;">
+<div class="cal-column cal-day mercredi"><div class="cal-day-heading">Mercredi</div><div class="cal-hour-heading">8</div><div class="cal-hour-heading">9</div><div class="cal-hour-heading">10</div><div class="cal-hour-heading">11</div><div class="cal-hour-heading">12</div><div class="cal-hour-heading">13</div><div class="cal-hour-heading">14</div><div class="cal-hour-heading">15</div><div class="cal-hour-heading">16</div><div class="cal-class Departement" style="grid-column: 1 / span 2; grid-row: 3 / span 7;">
                 <div class="title"><div>Réunion&nbsp;départementale</div></div>
                 <div class="cal-info">
                     <span class="cal-class-time">8:15 - 10:05</span>
@@ -142,7 +142,7 @@
                     <div class="cal-class-lign"><span class="cal-class-professor">Mathieu</span><span class="cal-class-location">C209</span></div>
                 </div>
             </div></div>
-<div class="cal-column cal-day jeudi"><div class="cal-day-heading">Jeudi</div><div class="cal-hour-heading">&nbsp;8</div><div class="cal-hour-heading">&nbsp;9</div><div class="cal-hour-heading">10</div><div class="cal-hour-heading">11</div><div class="cal-hour-heading">12</div><div class="cal-hour-heading">13</div><div class="cal-hour-heading">14</div><div class="cal-hour-heading">15</div><div class="cal-hour-heading">16</div><div class="cal-class Christiane" style="grid-column: 1 / span 2; grid-row: 4;">
+<div class="cal-column cal-day jeudi"><div class="cal-day-heading">Jeudi</div><div class="cal-hour-heading">8</div><div class="cal-hour-heading">9</div><div class="cal-hour-heading">10</div><div class="cal-hour-heading">11</div><div class="cal-hour-heading">12</div><div class="cal-hour-heading">13</div><div class="cal-hour-heading">14</div><div class="cal-hour-heading">15</div><div class="cal-hour-heading">16</div><div class="cal-class Christiane" style="grid-column: 1 / span 2; grid-row: 4;">
                 <div class="cal-info cal-info-fin">
                     <div class="cal-class-lign-haut"><span class="cal-class-time">8:15 - 10:05</span><span class="cal-class-group">gr. 1</span></div>
                     <span class="cal-class-title">Objets connectés 1</span>
@@ -191,7 +191,7 @@
                     <div class="cal-class-lign"><span class="cal-class-professor">Simon</span><span class="cal-class-location">C205</span></div>
                 </div>
             </div></div>
-<div class="cal-column cal-day vendredi"><div class="cal-day-heading">Vendredi</div><div class="cal-hour-heading">&nbsp;8</div><div class="cal-hour-heading">&nbsp;9</div><div class="cal-hour-heading">10</div><div class="cal-hour-heading">11</div><div class="cal-hour-heading">12</div><div class="cal-hour-heading">13</div><div class="cal-hour-heading">14</div><div class="cal-hour-heading">15</div><div class="cal-hour-heading">16</div><div class="cal-class Alexandre" style="grid-column: 1 / span 2; grid-row: 3;">
+<div class="cal-column cal-day vendredi"><div class="cal-day-heading">Vendredi</div><div class="cal-hour-heading">8</div><div class="cal-hour-heading">9</div><div class="cal-hour-heading">10</div><div class="cal-hour-heading">11</div><div class="cal-hour-heading">12</div><div class="cal-hour-heading">13</div><div class="cal-hour-heading">14</div><div class="cal-hour-heading">15</div><div class="cal-hour-heading">16</div><div class="cal-class Alexandre" style="grid-column: 1 / span 2; grid-row: 3;">
                 <div class="cal-info cal-info-fin">
                     <div class="cal-class-lign-haut"><span class="cal-class-time">8:15 - 10:05</span><span class="cal-class-group">gr. 1</span></div>
                     <span class="cal-class-title">Jeux 3D</span>
