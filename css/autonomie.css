@@ -89,7 +89,12 @@
 }
 
 .autonomie-icon {
-  padding-right: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.autonomie-icon-red {
+  color: #ff0000;
 }
 
 ul.autonomie,
