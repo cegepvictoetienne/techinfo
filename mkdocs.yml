@@ -30,9 +30,11 @@ extra_css:
   - css/extra.css
   - css/horaire.css
   - css/team.css
+  - css/autonomie.css
 
 extra_javascript:
   - javascript/alltarget.js
+  - javascript/autonomie.js
 
 extra:
   analytics:
@@ -40,40 +42,41 @@ extra:
     property: G-CEJXGD79WZ
 
 nav:
-  - 'Page principale': 'index.md'
-  - 'Grille des préalables': 'grille.md'
-  - 'Horaire des professeurs': 'horaire.md'
-  - 'Demander du tutorat': 'tutorat.md'
-  - 'Sites de notes de cours': 'sites.md'
-  - 'Équipe': 'equipe.md'
-  - 'Stages':
-      - 'Pour les élèves': 'stages-eleve.md'
-      - 'Pour les employeurs': 'stages.md'
-  - 'Intégrité académique':
-      - "Niveaux d'utilisation de l'intelligence artificielle": 'niveaux-ia.md'
-      - "Citer l'intelligence artificielle": 'citer-ia.md'
-      - 'Code emprunté': 'code-emprunte.md'
-  - 'Références':
-      - 'Abréviations': 'abreviations.md'
-      - 'Traductions': 'traductions.md'
-      - 'Rafraîchir les compétences': 'rafraichissement.md'
-  - 'Visual Studio Code':
-      - 'Extensions': 'vscode/extensions.md'
-  - 'Guide Mac':
-      - 'Page principale': 'guidemac/index.md'
-      - 'Installation':
-          - 'GIT': 'guidemac/git.md'
-          - 'Java': 'guidemac/java.md'
-          - 'Homebrew': 'guidemac/homebrew.md'
-          - 'Kali Linux': 'guidemac/kali.md'
-          - "Systèmes d'exploitation préinstallés": 'guidemac/os.md'
-          - 'UTM': 'guidemac/utm.md'
-          - 'UMLet': 'guidemac/umlet.md'
-          - 'Windows XP': 'guidemac/xp.md'
-      - 'Procédures':
-          - 'Créer ISO': 'guidemac/creer-iso.md'
-          - 'Convertir vmdk vers qcow2': 'guidemac/convertir-vmdk-vers-qcow2.md'
-          - 'Convertir qcow2 vers vmdk': 'guidemac/convertir-qcow2-vers-vmdk.md'
+  - "Page principale": "index.md"
+  - "Grille des préalables": "grille.md"
+  - "Horaire des professeurs": "horaire.md"
+  - "Demander du tutorat": "tutorat.md"
+  - "Sites de notes de cours": "sites.md"
+  - "Portrait de l'autonomie de l'élève": "autonomie.md"
+  - "Équipe": "equipe.md"
+  - "Stages":
+      - "Pour les élèves": "stages-eleve.md"
+      - "Pour les employeurs": "stages.md"
+  - "Intégrité académique":
+      - "Niveaux d'utilisation de l'intelligence artificielle": "niveaux-ia.md"
+      - "Citer l'intelligence artificielle": "citer-ia.md"
+      - "Code emprunté": "code-emprunte.md"
+  - "Références":
+      - "Abréviations": "abreviations.md"
+      - "Traductions": "traductions.md"
+      - "Rafraîchir les compétences": "rafraichissement.md"
+  - "Visual Studio Code":
+      - "Extensions": "vscode/extensions.md"
+  - "Guide Mac":
+      - "Page principale": "guidemac/index.md"
+      - "Installation":
+          - "GIT": "guidemac/git.md"
+          - "Java": "guidemac/java.md"
+          - "Homebrew": "guidemac/homebrew.md"
+          - "Kali Linux": "guidemac/kali.md"
+          - "Systèmes d'exploitation préinstallés": "guidemac/os.md"
+          - "UTM": "guidemac/utm.md"
+          - "UMLet": "guidemac/umlet.md"
+          - "Windows XP": "guidemac/xp.md"
+      - "Procédures":
+          - "Créer ISO": "guidemac/creer-iso.md"
+          - "Convertir vmdk vers qcow2": "guidemac/convertir-vmdk-vers-qcow2.md"
+          - "Convertir qcow2 vers vmdk": "guidemac/convertir-qcow2-vers-vmdk.md"
 
 markdown_extensions:
   - admonition
@@ -102,6 +105,6 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
-docs_dir: 'wiki'
-site_dir: 'www'
+docs_dir: "wiki"
+site_dir: "www"
 use_directory_urls: True

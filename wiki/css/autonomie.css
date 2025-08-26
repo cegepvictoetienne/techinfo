@@ -1,0 +1,164 @@
+/* Styles généraux */
+.autonomie-body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #c9d1d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0 150px; /* Ajoute de l'espace sur les côtés pour les boutons */
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Conteneur principal qui centre le contenu */
+.autonomie-main-content {
+  width: 100%;
+  max-width: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .autonomie-main-content {
+    min-width: 300px;
+  }
+}
+
+/* Conteneur pour la zone animée et les boutons */
+#autonomie-animation-container {
+  position: relative; /* Contexte pour positionner les boutons */
+  max-width: 550px;
+}
+
+/* Wrapper qui sert de "scène" pour les animations des sections */
+#autonomie-sections-wrapper {
+  min-height: 1000px; /* Hauteur fixe pour que les éléments ne sautent pas */
+}
+
+/* --- LOGIQUE D'ANIMATION (INCHANGÉE) --- */
+.autonomie-section {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  transition: transform 0.6s ease-in-out, opacity 0.5s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.autonomie-section.active {
+  opacity: 1;
+  transform: translate(0, 0);
+  pointer-events: auto;
+  z-index: 10;
+}
+
+.autonomie-section.previous {
+  transform: translate(-50%, 0%);
+  transform-origin: left;
+}
+
+.autonomie-section.next {
+  transform: translate(50%, 0%);
+  transform-origin: right;
+}
+
+/* --- STYLES DU CONTENU (INCHANGÉS) --- */
+.autonomie-title {
+  color: #58a6ff;
+  border-bottom: 2px solid #30363d;
+  padding-bottom: 2px;
+  margin-top: 0;
+  font-size: 1.7em;
+}
+
+.autonomie-subtitle {
+  color: #f3ff00;
+  padding: 0;
+  margin: 0 !important;
+  font-size: 0.9em;
+}
+
+.autonomie-icon {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.autonomie-icon-red {
+  color: #ff0000;
+}
+
+ul.autonomie,
+li.autonomie {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+li.autonomie {
+  background-color: #0d1117;
+  border-left: 3px solid #58a6ff;
+  padding: 3px 5px;
+  margin-bottom: 8px;
+  border-radius: 0 5px 5px 0;
+}
+
+#autonomie-prevBtn,
+#autonomie-nextBtn {
+  position: absolute;
+  top: 40%; /* Centre verticalement */
+  z-index: 100; /* S'assure qu'ils sont au-dessus des sections */
+  color: black;
+  padding: 10px 58a6ffpx;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+#autonomie-prevBtn {
+  left: 0px;
+  /* Se déplace à gauche de sa position et se centre verticalement */
+  transform: translate(-120%, -400%);
+}
+
+#autonomie-nextBtn {
+  right: 0;
+  /* Se déplace à droite de sa position et se centre verticalement */
+  transform: translate(120%, -400%);
+}
+
+#autonomie-prevBtn:hover {
+  transform: translate(-120%, -400%) scale(1.05);
+}
+#autonomie-nextBtn:hover {
+  transform: translate(120%, -400%) scale(1.05);
+}
+
+#autonomie-prevBtn:disabled,
+#autonomie-nextBtn:disabled {
+  color: white;
+  cursor: not-allowed;
+  transform: var(--base-transform) scale(1); /* Empêche l'effet de survol */
+}
+
+/* Maintient la position pour les boutons désactivés */
+#autonomie-prevBtn:disabled {
+  --base-transform: translate(-120%, -400%);
+}
+#autonomie-nextBtn:disabled {
+  --base-transform: translate(120%, -400%);
+}
+.autonomie-image {
+  width: 500px;
+}
