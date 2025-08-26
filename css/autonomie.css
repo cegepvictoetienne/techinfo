@@ -57,19 +57,19 @@
 
 .autonomie-section.active {
   opacity: 1;
-  transform: translate(0, 0) scale(1);
+  transform: translate(0, 0);
   pointer-events: auto;
   z-index: 10;
 }
 
 .autonomie-section.previous {
-  transform: translate(-50%, 50%) scale(0);
-  transform-origin: bottom left;
+  transform: translate(-50%, 0%);
+  transform-origin: left;
 }
 
 .autonomie-section.next {
-  transform: translate(50%, 50%) scale(0);
-  transform-origin: bottom right;
+  transform: translate(50%, 0%);
+  transform-origin: right;
 }
 
 /* --- STYLES DU CONTENU (INCHANGÉS) --- */
