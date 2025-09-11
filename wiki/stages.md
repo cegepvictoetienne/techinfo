@@ -12,7 +12,7 @@ Les stages ont une durée d'au moins **8 semaines** consécutives, sauf si l'ent
 
 ### Quelles sont les dates importantes pour les stages de l'été?
 
-Les stages débutent le 26 mai 2025 et doivent se terminer avant le 18 août 2025 (pour les élèves de 3ème année, la date est le 28 juillet).  
+Les stages débutent le 25 mai 2026 et doivent se terminer avant le 15 août 2026 (pour les élèves de 3ème année, la date est le 27 juillet).  
 
 ### Quel salaire horaire moyen est offert aux stagiaires en entreprise ?
 
@@ -22,9 +22,9 @@ La moyenne des salaires horaires de nos stagiaires se situe entre 20 $ et 25 $.
 
 Vous pouvez recevoir de 24% à 50% du salaire de votre stagiaire. Consultez [accueillez un stagiaire](https://pratiquesrh.com/services/accueillez-un-stagiaire) pour plus d'information.  
 
-### Comment offrir un stage pour l'été 2025?  
+### Comment offrir un stage pour l'été 2026?  
 
-Vous n'avez qu'à [remplir ce formulaire](https://forms.office.com/r/E5xJa2zEmy).  
+Vous n'avez qu'à [remplir ce formulaire](https://forms.office.com/r/79KvtqHdPR).  
 
 ### Qui contacter si j'ai des questions?  
 
