@@ -1,0 +1,386 @@
+[
+  {
+    "titre": "Formation spécifique",
+    "cours": [
+      {
+        "sigle": "420-1C4-VI",
+        "session": 1,
+        "heures": 60,
+        "titre": "Outils informatiques",
+        "description": "Bureautique en ligne, utilitaires, Intro Mac",
+        "dependances": []
+      },
+      {
+        "sigle": "420-1B4-VI",
+        "session": 1,
+        "heures": 60,
+        "titre": "Fonctionnement de l'ordinateur",
+        "description": "Installation, Linux",
+        "dependances": []
+      },
+      {
+        "sigle": "420-1E6-VI",
+        "session": 1,
+        "heures": 90,
+        "titre": "Design Web",
+        "description": "Web client (HTML, CSS, Bootstrap, Javascript)",
+        "dependances": []
+      },
+      {
+        "sigle": "420-1D6-VI",
+        "session": 1,
+        "heures": 90,
+        "titre": "Programmation 1",
+        "description": "Algorithmique élémentaire, programmation C#",
+        "dependances": [],
+        "concommitantes": ["201-1A3-VI"]
+      },
+      {
+        "sigle": "201-1A3-VI",
+        "session": 1,
+        "heures": 45,
+        "titre": "Mathématiques de l'ordinateur",
+        "description": "Nombres, algèbre de bool",
+        "dependances": []
+      },
+      {
+        "sigle": "420-2D4-VI",
+        "session": 2,
+        "heures": 60,
+        "titre": "Support technique",
+        "description": "Word, Excel, PowerPoint, Centre d'assistance",
+        "dependances": []
+      },
+      {
+        "sigle": "420-2A4-VI",
+        "session": 2,
+        "heures": 60,
+        "titre": "Développement Web 1",
+        "description": "PHP vanille, intégration MySQL",
+        "dependances": ["420-1E6-VI", "420-1D6-VI"],
+        "concommitantes": ["420-2B4-VI"]
+      },
+      {
+        "sigle": "420-2B4-VI",
+        "session": 2,
+        "heures": 60,
+        "titre": "Bases de données 1",
+        "description": "MySQL, jointure, procédures stockées, déclencheur",
+        "dependances": ["420-1D6-VI"]
+      },
+      {
+        "sigle": "420-2A6-VI",
+        "session": 2,
+        "heures": 90,
+        "titre": "Programmation 2",
+        "description": "Programmation objet, MonoGame",
+        "dependances": ["420-1D6-VI"]
+      },
+      {
+        "sigle": "420-2C4-VI",
+        "session": 2,
+        "heures": 60,
+        "titre": "Réseautique",
+        "description": "",
+        "dependances": ["201-1A3-VI"]
+      },
+      {
+        "sigle": "420-3A5-VI",
+        "session": 3,
+        "heures": 75,
+        "titre": "Développement Web 2",
+        "description": "WordPress",
+        "dependances": ["420-2A4-VI"]
+      },
+      {
+        "sigle": "420-3B4-VI",
+        "session": 3,
+        "heures": 60,
+        "titre": "Bases de données 2",
+        "description": "Modélisation, CRUD, Python",
+        "dependances": ["420-2B4-VI"]
+      },
+      {
+        "sigle": "420-3C4-VI",
+        "session": 3,
+        "heures": 60,
+        "titre": "Piratage éthique",
+        "description": "Sécurité prog, BD, réseau, encryption, firewall, antivirus",
+        "dependances": ["420-2C4-VI"],
+        "dependances_optionnelles": ["420-2B4-VI", "420-2A4-VI"]
+      },
+      {
+        "sigle": "420-3A4-VI",
+        "session": 3,
+        "heures": 60,
+        "titre": "Objets connectés 1",
+        "description": "Programmation, domotique sous Mac ou Linux",
+        "dependances": ["420-1D6-VI"]
+      },
+      {
+        "sigle": "420-3B3-VI",
+        "session": 3,
+        "heures": 45,
+        "titre": "Jeux 2D",
+        "description": "Godot, python",
+        "dependances": ["420-2A6-VI"]
+      },
+      {
+        "sigle": "420-3A3-VI",
+        "session": 3,
+        "heures": 45,
+        "titre": "Nano-ordinateurs",
+        "description": "Python, Linux, Pi, Servos, capteurs",
+        "dependances": ["420-2A6-VI"],
+        "dependances_optionnelles": ["201-1A3-VI"]
+      },
+      {
+        "sigle": "420-4A4-VI",
+        "session": 4,
+        "heures": 60,
+        "titre": "Services Web",
+        "description": "API, AJAX",
+        "dependances": ["420-2A4-VI"]
+      },
+      {
+        "sigle": "420-4C4-VI",
+        "session": 4,
+        "heures": 60,
+        "titre": "Mégadonnées",
+        "description": "NoSQL, Python",
+        "dependances": ["420-3B4-VI"]
+      },
+      {
+        "sigle": "420-4B4-VI",
+        "session": 4,
+        "heures": 60,
+        "titre": "Conception de systèmes",
+        "description": "Analyse, Agile, interfaces, projets fictifs",
+        "dependances": ["420-3B4-VI"]
+      },
+      {
+        "sigle": "420-4A6-VI",
+        "session": 4,
+        "heures": 90,
+        "titre": "Programmation 3",
+        "description": "Algorithme en C++ ou en Java",
+        "dependances": ["420-2A6-VI"]
+      },
+      {
+        "sigle": "420-4D4-VI",
+        "session": 4,
+        "heures": 60,
+        "titre": "Applications mobiles 1",
+        "description": "Android, iOS ou multi-plateformes",
+        "dependances": ["420-2A6-VI"]
+      },
+      {
+        "sigle": "201-4A4-VI",
+        "session": 4,
+        "heures": 60,
+        "titre": "Géométrie et statistiques",
+        "description": "Figures géométriques, statistiques descriptives",
+        "dependances": []
+      },
+      {
+        "sigle": "420-5A5-VI",
+        "session": 5,
+        "heures": 75,
+        "titre": "Développement Web 3",
+        "description": "Les tendances du moment Node, PWA, React",
+        "dependances": ["420-4A4-VI", "420-4C4-VI"]
+      },
+      {
+        "sigle": "420-5B5-VI",
+        "session": 5,
+        "heures": 75,
+        "titre": "Projet intégrateur 1",
+        "description": "Projets fictifs, En équipe",
+        "dependances": ["420-4B4-VI", "420-4A6-VI"]
+      },
+      {
+        "sigle": "420-5A4-VI",
+        "session": 5,
+        "heures": 60,
+        "titre": "Jeux 3D",
+        "description": "Unity 3D",
+        "dependances": ["420-2A6-VI"]
+      },
+      {
+        "sigle": "420-5B4-VI",
+        "session": 5,
+        "heures": 60,
+        "titre": "Applications mobiles 2",
+        "description": "Android, iOS ou multi-plateformes",
+        "dependances": ["420-2A6-VI"]
+      },
+      {
+        "sigle": "420-5A3-VI",
+        "session": 5,
+        "heures": 45,
+        "titre": "Technologies émergentes",
+        "description": "Veille techno, Évaluation de composantes",
+        "dependances": []
+      },
+      {
+        "sigle": "350-6A3-VI",
+        "session": 6,
+        "heures": 45,
+        "titre": "Interrelations professionnelles",
+        "description": "",
+        "dependances": [],
+        "concommitantes": ["420-6A7-VI"]
+      },
+      {
+        "sigle": "420-6A7-VI",
+        "session": 6,
+        "heures": 105,
+        "titre": "Projet intégrateur 2",
+        "description": "Projets communautaires individuels, cours porteur ESP",
+        "dependances": ["420-5B5-VI"]
+      },
+      {
+        "sigle": "420-6B3-VI",
+        "session": 6,
+        "heures": 45,
+        "titre": "Environnements immersifs",
+        "description": "Réalité virtuelle et augmentée",
+        "dependances": ["420-5A4-VI"]
+      },
+      {
+        "sigle": "420-6A3-VI",
+        "session": 6,
+        "heures": 45,
+        "titre": "Objets connectés 2",
+        "description": "",
+        "dependances": ["420-3A3-VI", "420-3A4-VI"],
+        "dependances_optionnelles": ["420-4D4-VI"]
+      },
+      {
+        "sigle": "420-6C3-VI",
+        "session": 6,
+        "heures": 45,
+        "titre": "Projet personnel",
+        "description": "Intensif sur 2 semaines, Veille, expérimentation, avis",
+        "dependances": []
+      }
+    ]
+  },
+  {
+    "titre": "Formation générale et complémentaire",
+    "cours": [
+      {
+        "sigle": "109-102-MQ",
+        "session": 1,
+        "heures": 30,
+        "titre": "Activité physique et efficacité",
+        "description": "",
+        "dependances": []
+      },
+      {
+        "sigle": "340-101-MQ",
+        "session": 1,
+        "heures": 60,
+        "titre": "Philosophie et rationalité",
+        "description": "",
+        "dependances": []
+      },
+      {
+        "sigle": "601-101-MQ",
+        "session": 2,
+        "heures": 60,
+        "titre": "Écriture et littérature",
+        "description": "",
+        "dependances": []
+      },
+      {
+        "sigle": "ANG-FGC-R4",
+        "session": 2,
+        "heures": 45,
+        "titre": "Anglais Formation générale commune",
+        "description": "",
+        "dependances": []
+      },
+      {
+        "sigle": "109-101-MQ",
+        "session": 4,
+        "heures": 30,
+        "titre": "Activité physique et santé",
+        "description": "",
+        "dependances": ["109-102-MQ"]
+      },
+      {
+        "sigle": "601-102-MQ",
+        "session": 3,
+        "heures": 60,
+        "titre": "Littérature et imaginaire",
+        "description": "",
+        "dependances": ["601-101-MQ"]
+      },
+      {
+        "sigle": "ANG-FGP-R4",
+        "session": 3,
+        "heures": 45,
+        "titre": "Anglais Formation générale propre",
+        "description": "",
+        "dependances": ["ANG-FGC-R4"]
+      },
+      {
+        "sigle": "340-102-MQ",
+        "session": 4,
+        "heures": 45,
+        "titre": "L'être humain",
+        "description": "",
+        "dependances": ["340-101-MQ"]
+      },
+      {
+        "sigle": "601-103-MQ",
+        "session": 5,
+        "heures": 60,
+        "titre": "Littérature québécoise",
+        "description": "",
+        "dependances": ["601-102-MQ"]
+      },
+      {
+        "sigle": "109-103-MQ",
+        "session": 5,
+        "heures": 30,
+        "titre": "Activité physique et autonomie",
+        "description": "",
+        "dependances": ["109-101-MQ"]
+      },
+      {
+        "sigle": "340-PP3-VI",
+        "session": 6,
+        "heures": 45,
+        "titre": "Philosophie Formation générale propre",
+        "description": "",
+        "dependances": ["340-102-MQ"]
+      },
+      {
+        "sigle": "COM-001-03",
+        "session": 5,
+        "heures": 45,
+        "titre": "Cours complémentaire 1",
+        "description": "",
+        "dependances": []
+      },
+      {
+        "sigle": "601-FP4-VI",
+        "session": 6,
+        "heures": 60,
+        "titre": "Français Formation générale propre",
+        "description": "",
+        "dependances": ["601-103-MQ"]
+      },
+      {
+        "sigle": "COM-002-03",
+        "session": 6,
+        "heures": 45,
+        "titre": "Cours complémentaire 2",
+        "description": "",
+        "dependances": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,183 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #34495e;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.flowchart-section {
+  margin-bottom: 50px;
+}
+
+.flowchart-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(220px, 1fr);
+  gap: 40px;
+  padding: 20px;
+  overflow-x: auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.session-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-left: 1px dashed #ccc;
+  padding-left: 20px;
+  position: relative;
+}
+
+.session-column:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+
+.session-column::before {
+  content: "Session " attr(data-session);
+  position: absolute;
+  top: -30px;
+  left: 20px;
+  font-weight: bold;
+  color: #7f8c8d;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.session-column:first-child::before {
+  left: 0;
+}
+
+.course-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-top: 5px solid;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.course-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.course-description {
+  font-size: 0.8em;
+  font-style: italic;
+  color: #666;
+}
+
+/* Color Coding based on course 'sigle' */
+.color-420 {
+  background-color: #eaf4ff;
+  border-top-color: #3498db;
+}
+.color-582 {
+  background-color: #e8f6f3;
+  border-top-color: #1abc9c;
+}
+.color-109 {
+  background-color: #fef5e7;
+  border-top-color: #f39c12;
+}
+.color-340 {
+  background-color: #f4ecf7;
+  border-top-color: #9b59b6;
+}
+.color-604 {
+  background-color: #fdebd0;
+  border-top-color: #e67e22;
+}
+.color-350 {
+  background-color: #ebedef;
+  border-top-color: #95a5a6;
+}
+.color-efg {
+  background-color: #e8f8f5;
+  border-top-color: #16a085;
+}
+.color-gen {
+  background-color: #f2f2f2;
+  border-top-color: #bdc3c7;
+}
+.color-default {
+  background-color: #ffffff;
+  border-top-color: #7f8c8d;
+}
+
+/* JointJS styles */
+.flowchart-svg-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.flowchart-svg-container svg {
+  width: 100%;
+  height: 100%;
+}
+
+#flowchart-specific-wrapper,
+#flowchart-general-wrapper {
+  position: relative;
+}
+
+/* Ensure course cards are above the SVG */
+.course-card {
+  position: relative;
+  z-index: 10;
+}
+
+/* JointJS link styling */
+.joint-link {
+  stroke: #34495e;
+  stroke-width: 2;
+  fill: none;
+  pointer-events: stroke;
+}
+
+.joint-link-tools {
+  display: none;
+}

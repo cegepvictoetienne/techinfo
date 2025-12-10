@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Curriculum Flowchart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Techniques de l'informatique - Grille de cours</h1>
+    </header>
+    <main>
+      <div class="flowchart-section">
+        <h2>Formation spécifique</h2>
+        <div class="flowchart-container" id="flowchart-specific-wrapper">
+          <svg
+            class="flowchart-svg-container"
+            id="flowchart-specific-svg"
+          ></svg>
+          <div
+            id="flowchart-specific-container"
+            class="flowchart-container"
+          ></div>
+        </div>
+      </div>
+      <div class="flowchart-section">
+        <h2>Formation générale et complémentaire</h2>
+        <div class="flowchart-container" id="flowchart-general-wrapper">
+          <svg class="flowchart-svg-container" id="flowchart-general-svg"></svg>
+          <div
+            id="flowchart-general-container"
+            class="flowchart-container"
+          ></div>
+        </div>
+      </div>
+    </main>
+    <!-- JointJS library for drawing connecting lines with obstacle avoidance -->
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/backbone@1.4.1/backbone.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jointjs@3.8.0/dist/joint.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dagre@0.8.5/dist/dagre.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/graphlib@2.1.8/dist/graphlib.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

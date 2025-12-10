@@ -12,7 +12,7 @@ from openpyxl import load_workbook
 
 PAR_JOUR = 7
 LIGNE_DEBUT_COURS = 3
-TITRE_PAGE = "# Horaire des professeurs pour l'automne 2025"
+TITRE_PAGE = "# Horaire des professeurs pour l'hiver 2026"
 REUNION_DEPARTEMENT = {
     "titre":"Réunion&nbsp;départementale",
     "heure_debut":"8:15",
@@ -92,7 +92,7 @@ def generer_horaire_de_excel(chemin_fichier_excel, chemin_fichier_sortie):
         colonne_vendredi += f'<div class="cal-hour-heading">{heure}</div>'
 
     # Ajout de la réunion départementale
-    colonne_mercredi += f'''<div class="cal-class Departement" style="grid-column: 1 / span 2; grid-row: 3 / span 7;">
+    colonne_mercredi += f'''<div class="cal-class Departement" style="grid-column: 1 / span 2; grid-row: 3 / span 8;">
                 <div class="title"><div>{REUNION_DEPARTEMENT["titre"]}</div></div>
                 <div class="cal-info">
                     <span class="cal-class-time">{REUNION_DEPARTEMENT["heure_debut"]} - {REUNION_DEPARTEMENT["heure_fin"]}</span>
