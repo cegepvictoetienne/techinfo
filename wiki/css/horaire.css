@@ -120,7 +120,7 @@
 }
 
 .cal-info::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 0;
   width: 0;
@@ -134,7 +134,7 @@
 }
 
 .cal-info-fin::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 0;
   width: 0;
