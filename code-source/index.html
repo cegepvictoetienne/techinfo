@@ -147,7 +147,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#guide-du-code-source" class="md-skip">
+        <a href="#guide-de-code" class="md-skip">
           Aller au contenu
         </a>
       
@@ -637,6 +637,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -669,6 +671,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -677,9 +681,72 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#guide-du-code-source" class="md-nav__link">
+  <a href="#noms-significatifs" class="md-nav__link">
     <span class="md-ellipsis">
-      Guide du code source
+      Noms significatifs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Indentation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#longueur-des-lignes-de-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Longueur des lignes de code
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cascade-dimbrications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cascade d’imbrications
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commentaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      Commentaires
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accentuation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accentuation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      Références
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mises-a-jour" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mises à jour
     </span>
   </a>
   
@@ -1313,6 +1380,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1321,9 +1390,72 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#guide-du-code-source" class="md-nav__link">
+  <a href="#noms-significatifs" class="md-nav__link">
     <span class="md-ellipsis">
-      Guide du code source
+      Noms significatifs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Indentation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#longueur-des-lignes-de-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Longueur des lignes de code
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cascade-dimbrications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cascade d’imbrications
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commentaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      Commentaires
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accentuation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accentuation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      Références
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mises-a-jour" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mises à jour
     </span>
   </a>
   
@@ -1345,9 +1477,397 @@
 
 
 
-  <h1>Guide du code source</h1>
+<h1 id="guide-de-code">Guide de code</h1>
+<p>Objectif : énumérer des standards de code commun à tous les cours utilisant les langages de programmation. Le présent guide sert de «&nbsp;guide méthodologique&nbsp;» au sens de l’article 4.2.2 en raison de l’absence de méthodologie pour Bernard Dionne à propos des standards de code. </p>
+<p>Principes directeurs :
+- Augmenter la lisibilité du code : en rendant plus lisible il est à la fois plus simple pour l’élève de comprendre ses erreurs et pour le personnel enseignant de comprendre ce que l’élève a voulu faire;
+- Standardiser les attentes : pour des codes du même langage écrit dans des cours différents, les attentes de présentation devraient être les mêmes;
+- Appliquer les bonnes pratiques des langages : utiliser les standards partagés par les concepteurs des langages afin de préparer aux attentes du marché du travail.</p>
+<p>En raison des spécificités de chaque langage, la mise en œuvre des diverses attentes peut légèrement différer, mais les critères restent les mêmes. Le langage C#, en raison de son utilisation dès le début du programme, est utilisé pour illustrer la plupart des concepts de ce guide.</p>
+<h2 id="noms-significatifs">Noms significatifs</h2>
+<p>Les noms des variables, méthodes, fonctions, classes, modules, espaces de noms, paquets et tout autre indicateur de code doivent représenter son rôle dans le code. </p>
+<div class="language-c# highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">3</a></span>
+<span class="normal"><a href="#__codelineno-0-4">4</a></span>
+<span class="normal"><a href="#__codelineno-0-5">5</a></span>
+<span class="normal"><a href="#__codelineno-0-6">6</a></span>
+<span class="normal"><a href="#__codelineno-0-7">7</a></span>
+<span class="normal"><a href="#__codelineno-0-8">8</a></span>
+<span class="normal"><a href="#__codelineno-0-9">9</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="c1">// MAUVAISE PRATIQUE</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="k">public</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="nf">ConvertirTemperature</span><span class="p">(</span><span class="kt">double</span><span class="w"> </span><span class="n">t</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">t</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">1.8</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">32.0</span><span class="p">;</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="p">}</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="c1">// BONNE PRATIQUE</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="k">public</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="nf">ConvertirEnCelsius</span><span class="p">(</span><span class="kt">double</span><span class="w"> </span><span class="n">farenheit</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">farenheit</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">1.8</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">32.0</span><span class="p">;</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<blockquote>
+<p>Exception :
+- les variables pour itérer dans une boucle <code>for</code> nommées i, j et k sont permises
+- les lettres utilisées pour décrire une formule mathématique, comme Pythagore, sont permises, tant que la documentation permet d’identifier clairement le rôle de la lettre dans la formule
+- certains langages admettent des usages communs de raccourcis tels «&nbsp;e&nbsp;» pour «&nbsp;evenement&nbsp;». Ces conventions peuvent être utilisées si le contexte est clair ET l'enseignant ou l'enseignante les utilisent.</p>
+</blockquote>
+<p>Les abréviations peuvent être utilisées si elles sont standards et que le code reste lisible malgré leur utilisation. </p>
+<p>En raison des outils modernes de développement (EDI), aucune notation hongroise ne doit être utilisée.</p>
+<div class="language-c# highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-1-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-1-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-1-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-1-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-1-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-1-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-1-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-1-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-1-10">10</a></span>
+<span class="normal"><a href="#__codelineno-1-11">11</a></span>
+<span class="normal"><a href="#__codelineno-1-12">12</a></span>
+<span class="normal"><a href="#__codelineno-1-13">13</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="c1">// MAUVAISE PRATIQUE</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="c1">// Temp n&#39;est pas standard</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="c1">// CEnF n&#39;est pas clair en raison de majuscules collées</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="k">public</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="nf">ConvertirTempCEnF</span><span class="p">(</span><span class="kt">double</span><span class="w"> </span><span class="n">farenheit</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">t</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">1.8</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">32.0</span><span class="p">;</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6"></a><span class="p">}</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7"></a>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8"></a><span class="c1">// BONNE PRATIQUE</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9"></a><span class="c1">// Lbs et Kg sont des abbréviations connues</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10"></a><span class="c1">// Il n&#39;y a pas deux majuscules consécutives</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11"></a><span class="k">public</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="nf">ConvertirMasseLbsEnKg</span><span class="p">(</span><span class="kt">double</span><span class="w"> </span><span class="n">livres</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">livres</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">0.453592</span><span class="p">;</span>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<blockquote>
+<p>Qu’est-ce qu’une abréviation standard? Vérifiez cette information avec l’enseignant ou l’enseignante du cours.</p>
+</blockquote>
+<h2 id="indentation">Indentation</h2>
+<p>Les instructions de code doivent être indentées à chaque déclaration de bloc de code. Les déclarations prennent, dans la plupart des langages, la forme de l’ajout d’une paire d’accolades ou de l’utilisation du symbole deux points. Le standard d’indentation est de 4 espaces ou une tabulation équivalente à 4 espaces. Les indentations à 2 ou à 8 espaces ne doivent pas être utilisées, sauf si le standard du langage (comme SwitfUI) recommande l'utilisation d'une autre largeur d'indentation.</p>
+<div class="language-c# highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-2-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-2-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-2-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-2-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-2-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-2-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-2-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-2-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-2-10">10</a></span>
+<span class="normal"><a href="#__codelineno-2-11">11</a></span>
+<span class="normal"><a href="#__codelineno-2-12">12</a></span>
+<span class="normal"><a href="#__codelineno-2-13">13</a></span>
+<span class="normal"><a href="#__codelineno-2-14">14</a></span>
+<span class="normal"><a href="#__codelineno-2-15">15</a></span>
+<span class="normal"><a href="#__codelineno-2-16">16</a></span>
+<span class="normal"><a href="#__codelineno-2-17">17</a></span>
+<span class="normal"><a href="#__codelineno-2-18">18</a></span>
+<span class="normal"><a href="#__codelineno-2-19">19</a></span>
+<span class="normal"><a href="#__codelineno-2-20">20</a></span>
+<span class="normal"><a href="#__codelineno-2-21">21</a></span>
+<span class="normal"><a href="#__codelineno-2-22">22</a></span>
+<span class="normal"><a href="#__codelineno-2-23">23</a></span>
+<span class="normal"><a href="#__codelineno-2-24">24</a></span>
+<span class="normal"><a href="#__codelineno-2-25">25</a></span>
+<span class="normal"><a href="#__codelineno-2-26">26</a></span>
+<span class="normal"><a href="#__codelineno-2-27">27</a></span>
+<span class="normal"><a href="#__codelineno-2-28">28</a></span>
+<span class="normal"><a href="#__codelineno-2-29">29</a></span>
+<span class="normal"><a href="#__codelineno-2-30">30</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="c1">// MAUVAISE PRATIQUE</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="k">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">TrouverMaximum</span><span class="p">(</span><span class="kt">int</span><span class="p">[]</span><span class="w"> </span><span class="n">nombres</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="k">if</span><span class="p">(</span><span class="n">nombres</span><span class="p">.</span><span class="n">Length</span><span class="o">==</span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="k">throw</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="nf">Exception</span><span class="p">(</span><span class="s">&quot;Le tableau pour la recherche est vide&quot;</span><span class="p">);</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5"></a><span class="p">}</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6"></a><span class="kt">int</span><span class="w"> </span><span class="n">max</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">nombres</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7"></a><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">nombres</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8"></a><span class="k">if</span><span class="p">(</span><span class="n">nombres</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">&gt;</span><span class="n">max</span><span class="p">){</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9"></a><span class="n">max</span><span class="o">=</span><span class="n">nombres</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10"></a><span class="p">}</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11"></a><span class="p">}</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12"></a><span class="k">return</span><span class="w"> </span><span class="n">max</span><span class="p">;</span>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13"></a><span class="p">}</span>
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14"></a>
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15"></a><span class="c1">// BONNE PRATIQUE</span>
+</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16"></a><span class="k">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">TrouverMaximum</span><span class="p">(</span><span class="kt">int</span><span class="p">[]</span><span class="w"> </span><span class="n">nombres</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17"></a><span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">nombres</span><span class="p">.</span><span class="n">Length</span><span class="o">==</span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18"></a><span class="w">        </span><span class="k">throw</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="nf">Exception</span><span class="p">(</span><span class="s">&quot;Le tableau pour la recherche est vide&quot;</span><span class="p">);</span>
+</span><span id="__span-2-19"><a id="__codelineno-2-19" name="__codelineno-2-19"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-2-20"><a id="__codelineno-2-20" name="__codelineno-2-20"></a>
+</span><span id="__span-2-21"><a id="__codelineno-2-21" name="__codelineno-2-21"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">max</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">nombres</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</span><span id="__span-2-22"><a id="__codelineno-2-22" name="__codelineno-2-22"></a>
+</span><span id="__span-2-23"><a id="__codelineno-2-23" name="__codelineno-2-23"></a><span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">nombres</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-24"><a id="__codelineno-2-24" name="__codelineno-2-24"></a><span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="n">nombres</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">&gt;</span><span class="n">max</span><span class="p">){</span>
+</span><span id="__span-2-25"><a id="__codelineno-2-25" name="__codelineno-2-25"></a><span class="w">            </span><span class="n">max</span><span class="o">=</span><span class="n">nombres</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span><span id="__span-2-26"><a id="__codelineno-2-26" name="__codelineno-2-26"></a><span class="w">        </span><span class="p">}</span>
+</span><span id="__span-2-27"><a id="__codelineno-2-27" name="__codelineno-2-27"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-2-28"><a id="__codelineno-2-28" name="__codelineno-2-28"></a>
+</span><span id="__span-2-29"><a id="__codelineno-2-29" name="__codelineno-2-29"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">max</span><span class="p">;</span>
+</span><span id="__span-2-30"><a id="__codelineno-2-30" name="__codelineno-2-30"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<blockquote>
+<p>Important : les langages standardisent peu ou pas la présence de retour à la ligne ou d’espaces dans le code. Il est de recommander d’en mettre un peu plus qu’un peu moins afin d’augmenter la lisibilité du code. </p>
+</blockquote>
+<h2 id="longueur-des-lignes-de-code">Longueur des lignes de code</h2>
+<p>Les lignes de code devraient être d’une longueur maximale d’environ 80 caractères. Les lignes de code trop longues doivent être coupées manuellement, à un endroit adéquat, et la continuité du code doit être identité. Il est aussi possible de reformuler une ligne de code trop longue en introduisant des variables locales. </p>
+<div class="language-c# highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-3-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-3-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-3-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-3-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-3-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-3-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-3-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-3-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-3-10">10</a></span>
+<span class="normal"><a href="#__codelineno-3-11">11</a></span>
+<span class="normal"><a href="#__codelineno-3-12">12</a></span>
+<span class="normal"><a href="#__codelineno-3-13">13</a></span>
+<span class="normal"><a href="#__codelineno-3-14">14</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="c1">// MAUVAISE PRATIQUE</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="nf">FormaterInformationsUtilisateur</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">prenom</span><span class="p">,</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">nomDeFamille</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">age</span><span class="p">,</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">ville</span><span class="p">,</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">pays</span><span class="p">)</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="p">{</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="s">$&quot;Nom: {prenom} {nomDeFamille}, Âge: {age}, Ville: {ville}, Pays: {pays}, Identifiant: {Guid.NewGuid().ToString().ToUpper()}&quot;</span><span class="p">;</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="p">}</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6"></a>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7"></a><span class="c1">// BONNE PRATIQUE</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8"></a><span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="nf">FormaterInformationsUtilisateur</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">prenom</span><span class="p">,</span><span class="w"> </span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9"></a><span class="w">    </span><span class="kt">string</span><span class="w"> </span><span class="n">nomDeFamille</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">age</span><span class="p">,</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">ville</span><span class="p">,</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">pays</span><span class="p">)</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10"></a><span class="p">{</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="s">$&quot;Nom: {prenom} {nomDeFamille}, Âge: {age}, &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12"></a><span class="w">        </span><span class="s">&quot;Ville: {ville}, Pays: {pays}, &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span>
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13"></a><span class="w">        </span><span class="s">&quot;Identifiant: {Guid.NewGuid().ToString().ToUpper()}&quot;</span><span class="p">;</span>
+</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<h2 id="cascade-dimbrications">Cascade d’imbrications</h2>
+<p>Le nombre d’imbrications d’instruction de code ne devrait pas excéder 3 niveaux à l’intérieur d’une fonction ou méthode. Au-delà de ce niveau, vous devriez faire une fonction ou méthode supplémentaire. Il peut y avoir des cas rares ou il est nécessaire d'excéder 3 niveaux d'imbrication, vous devriez valider avec votre enseignant ou enseignante si c'est le cas pour votre algorithme.</p>
+<div class="language-c# highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-4-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-4-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-4-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-4-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-4-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-4-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-4-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-4-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-4-10">10</a></span>
+<span class="normal"><a href="#__codelineno-4-11">11</a></span>
+<span class="normal"><a href="#__codelineno-4-12">12</a></span>
+<span class="normal"><a href="#__codelineno-4-13">13</a></span>
+<span class="normal"><a href="#__codelineno-4-14">14</a></span>
+<span class="normal"><a href="#__codelineno-4-15">15</a></span>
+<span class="normal"><a href="#__codelineno-4-16">16</a></span>
+<span class="normal"><a href="#__codelineno-4-17">17</a></span>
+<span class="normal"><a href="#__codelineno-4-18">18</a></span>
+<span class="normal"><a href="#__codelineno-4-19">19</a></span>
+<span class="normal"><a href="#__codelineno-4-20">20</a></span>
+<span class="normal"><a href="#__codelineno-4-21">21</a></span>
+<span class="normal"><a href="#__codelineno-4-22">22</a></span>
+<span class="normal"><a href="#__codelineno-4-23">23</a></span>
+<span class="normal"><a href="#__codelineno-4-24">24</a></span>
+<span class="normal"><a href="#__codelineno-4-25">25</a></span>
+<span class="normal"><a href="#__codelineno-4-26">26</a></span>
+<span class="normal"><a href="#__codelineno-4-27">27</a></span>
+<span class="normal"><a href="#__codelineno-4-28">28</a></span>
+<span class="normal"><a href="#__codelineno-4-29">29</a></span>
+<span class="normal"><a href="#__codelineno-4-30">30</a></span>
+<span class="normal"><a href="#__codelineno-4-31">31</a></span>
+<span class="normal"><a href="#__codelineno-4-32">32</a></span>
+<span class="normal"><a href="#__codelineno-4-33">33</a></span>
+<span class="normal"><a href="#__codelineno-4-34">34</a></span>
+<span class="normal"><a href="#__codelineno-4-35">35</a></span>
+<span class="normal"><a href="#__codelineno-4-36">36</a></span>
+<span class="normal"><a href="#__codelineno-4-37">37</a></span>
+<span class="normal"><a href="#__codelineno-4-38">38</a></span>
+<span class="normal"><a href="#__codelineno-4-39">39</a></span>
+<span class="normal"><a href="#__codelineno-4-40">40</a></span>
+<span class="normal"><a href="#__codelineno-4-41">41</a></span>
+<span class="normal"><a href="#__codelineno-4-42">42</a></span>
+<span class="normal"><a href="#__codelineno-4-43">43</a></span>
+<span class="normal"><a href="#__codelineno-4-44">44</a></span>
+<span class="normal"><a href="#__codelineno-4-45">45</a></span>
+<span class="normal"><a href="#__codelineno-4-46">46</a></span>
+<span class="normal"><a href="#__codelineno-4-47">47</a></span>
+<span class="normal"><a href="#__codelineno-4-48">48</a></span>
+<span class="normal"><a href="#__codelineno-4-49">49</a></span>
+<span class="normal"><a href="#__codelineno-4-50">50</a></span>
+<span class="normal"><a href="#__codelineno-4-51">51</a></span>
+<span class="normal"><a href="#__codelineno-4-52">52</a></span>
+<span class="normal"><a href="#__codelineno-4-53">53</a></span>
+<span class="normal"><a href="#__codelineno-4-54">54</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="c1">// MAUVAISE PRATIQUE</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="c1">/// &lt;summary&gt;</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3"></a><span class="c1">/// Vérifie dans une liste de noms d&#39;utilisateur les caractères invalides. Les caractères</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4"></a><span class="c1">/// sont valides seulement s&#39;ils sont des lettres ou des nombres. Les caractères trouvés sont</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5"></a><span class="c1">/// écrits dans la console.</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6"></a><span class="c1">/// &lt;/summary&gt;</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7"></a><span class="c1">/// &lt;param name=&quot;listeUtilisateurs&quot;&gt;La liste des noms d&#39;utilisateurs&lt;/param&gt;</span>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8"></a><span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">ValiderNomsUtilisateurs</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span><span class="w"> </span><span class="n">listeUtilisateurs</span><span class="p">)</span>
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9"></a><span class="p">{</span>
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10"></a><span class="w">    </span><span class="k">foreach</span><span class="w"> </span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">nomUtilisateur</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">listeUtilisateurs</span><span class="p">)</span><span class="w"> </span>
+</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="kt">string</span><span class="p">.</span><span class="n">IsNullOrEmpty</span><span class="p">(</span><span class="n">nomUtilisateur</span><span class="p">))</span><span class="w"> </span>
+</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13"></a><span class="w">        </span><span class="p">{</span>
+</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14"></a><span class="w">            </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">nomUtilisateur</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span>
+</span><span id="__span-4-15"><a id="__codelineno-4-15" name="__codelineno-4-15"></a><span class="w">            </span><span class="p">{</span>
+</span><span id="__span-4-16"><a id="__codelineno-4-16" name="__codelineno-4-16"></a><span class="w">                </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="kt">char</span><span class="p">.</span><span class="n">IsLetter</span><span class="p">(</span><span class="n">nomUtilisateur</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="o">!</span><span class="kt">char</span><span class="p">.</span><span class="n">IsNumber</span><span class="p">(</span><span class="n">nomUtilisateur</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span><span class="w"> </span>
+</span><span id="__span-4-17"><a id="__codelineno-4-17" name="__codelineno-4-17"></a><span class="w">                </span><span class="p">{</span>
+</span><span id="__span-4-18"><a id="__codelineno-4-18" name="__codelineno-4-18"></a><span class="w">                    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">$&quot;Caractère invalide trouvé: {nomUtilisateur[i]}&quot;</span><span class="p">);</span>
+</span><span id="__span-4-19"><a id="__codelineno-4-19" name="__codelineno-4-19"></a><span class="w">                </span><span class="p">}</span>
+</span><span id="__span-4-20"><a id="__codelineno-4-20" name="__codelineno-4-20"></a><span class="w">            </span><span class="p">}</span>
+</span><span id="__span-4-21"><a id="__codelineno-4-21" name="__codelineno-4-21"></a><span class="w">        </span><span class="p">}</span>
+</span><span id="__span-4-22"><a id="__codelineno-4-22" name="__codelineno-4-22"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-4-23"><a id="__codelineno-4-23" name="__codelineno-4-23"></a><span class="p">}</span>
+</span><span id="__span-4-24"><a id="__codelineno-4-24" name="__codelineno-4-24"></a>
+</span><span id="__span-4-25"><a id="__codelineno-4-25" name="__codelineno-4-25"></a><span class="c1">// BONNE PRATIQUE</span>
+</span><span id="__span-4-26"><a id="__codelineno-4-26" name="__codelineno-4-26"></a><span class="c1">// Valide la liste des noms d&#39;utilisateur</span>
+</span><span id="__span-4-27"><a id="__codelineno-4-27" name="__codelineno-4-27"></a><span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">ValiderNomsUtilisateurs</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span><span class="w"> </span><span class="n">listeUtilisateurs</span><span class="p">)</span>
+</span><span id="__span-4-28"><a id="__codelineno-4-28" name="__codelineno-4-28"></a><span class="p">{</span>
+</span><span id="__span-4-29"><a id="__codelineno-4-29" name="__codelineno-4-29"></a><span class="w">    </span><span class="k">foreach</span><span class="w"> </span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">nomUtilisateur</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">listeUtilisateurs</span><span class="p">)</span><span class="w"> </span>
+</span><span id="__span-4-30"><a id="__codelineno-4-30" name="__codelineno-4-30"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-4-31"><a id="__codelineno-4-31" name="__codelineno-4-31"></a><span class="w">        </span><span class="n">ValiderNom</span><span class="p">(</span><span class="n">nomUtilisateur</span><span class="p">);</span>
+</span><span id="__span-4-32"><a id="__codelineno-4-32" name="__codelineno-4-32"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-4-33"><a id="__codelineno-4-33" name="__codelineno-4-33"></a><span class="p">}</span>
+</span><span id="__span-4-34"><a id="__codelineno-4-34" name="__codelineno-4-34"></a>
+</span><span id="__span-4-35"><a id="__codelineno-4-35" name="__codelineno-4-35"></a><span class="c1">// Valide un nom d&#39;utilisateur</span>
+</span><span id="__span-4-36"><a id="__codelineno-4-36" name="__codelineno-4-36"></a><span class="k">private</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">ValiderNom</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">nomUtilisateur</span><span class="p">)</span>
+</span><span id="__span-4-37"><a id="__codelineno-4-37" name="__codelineno-4-37"></a><span class="p">{</span>
+</span><span id="__span-4-38"><a id="__codelineno-4-38" name="__codelineno-4-38"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="kt">string</span><span class="p">.</span><span class="n">IsNullOrEmpty</span><span class="p">(</span><span class="n">nomUtilisateur</span><span class="p">))</span><span class="w"> </span>
+</span><span id="__span-4-39"><a id="__codelineno-4-39" name="__codelineno-4-39"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-4-40"><a id="__codelineno-4-40" name="__codelineno-4-40"></a><span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">nomUtilisateur</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span>
+</span><span id="__span-4-41"><a id="__codelineno-4-41" name="__codelineno-4-41"></a><span class="w">        </span><span class="p">{</span>
+</span><span id="__span-4-42"><a id="__codelineno-4-42" name="__codelineno-4-42"></a><span class="w">            </span><span class="n">ValiderCaractere</span><span class="p">(</span><span class="n">nomUtilisateur</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</span><span id="__span-4-43"><a id="__codelineno-4-43" name="__codelineno-4-43"></a><span class="w">        </span><span class="p">}</span>
+</span><span id="__span-4-44"><a id="__codelineno-4-44" name="__codelineno-4-44"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-4-45"><a id="__codelineno-4-45" name="__codelineno-4-45"></a><span class="p">}</span>
+</span><span id="__span-4-46"><a id="__codelineno-4-46" name="__codelineno-4-46"></a>
+</span><span id="__span-4-47"><a id="__codelineno-4-47" name="__codelineno-4-47"></a><span class="c1">// Valide un caractère selon les règles du système.</span>
+</span><span id="__span-4-48"><a id="__codelineno-4-48" name="__codelineno-4-48"></a><span class="k">private</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">ValiderCaractere</span><span class="p">(</span><span class="kt">char</span><span class="w"> </span><span class="n">caractere</span><span class="p">)</span>
+</span><span id="__span-4-49"><a id="__codelineno-4-49" name="__codelineno-4-49"></a><span class="p">{</span>
+</span><span id="__span-4-50"><a id="__codelineno-4-50" name="__codelineno-4-50"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="kt">char</span><span class="p">.</span><span class="n">IsLetter</span><span class="p">(</span><span class="n">caractere</span><span class="p">)</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="o">!</span><span class="kt">char</span><span class="p">.</span><span class="n">IsNumber</span><span class="p">(</span><span class="n">caractere</span><span class="p">))</span><span class="w"> </span>
+</span><span id="__span-4-51"><a id="__codelineno-4-51" name="__codelineno-4-51"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-4-52"><a id="__codelineno-4-52" name="__codelineno-4-52"></a><span class="w">        </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">$&quot;Caractère invalide trouvé: {caractere}&quot;</span><span class="p">);</span>
+</span><span id="__span-4-53"><a id="__codelineno-4-53" name="__codelineno-4-53"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-4-54"><a id="__codelineno-4-54" name="__codelineno-4-54"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<blockquote>
+<p>Vous avez de la difficulé à réduire les niveaux d'imbrication dans vos codes : utilisez les clauses de garde pour vous aider. Ces clauses interrompre un traitement lorsqu'une condition n'est pas respectée plutôt que de permettre le traitement lorsqu'elle est respectées.</p>
+</blockquote>
+<p>```c# title="Utilisation des clauses de garde" line_nums="1"
+// SANS CLAUSE DE GARDE - 3 niveaux d'imbrication
+public int TrouverMaximum(int[] nombres) {</p>
+<div class="language-text highlight"><pre><span></span><code>// Si le tableau contient au moins un élément un recherche le maximum
+if(nombres.Length &gt;= 1) {
+    int max = nombres[0]
 
-<h2 id="guide-du-code-source">Guide du code source</h2>
+    for(int i = 1; i &lt; nombres.Length; i++) {
+        if(nombres[i]&gt;max) {
+            max=nombres[i];
+        }
+    }
+
+    return max;
+}
+else     // On lance une erreur, car le tableau est vide
+{
+    throw new Exception(&quot;Le tableau pour la recherche est vide&quot;);
+}
+</code></pre></div>
+<p>}</p>
+<p>// AVEC CLAUSE DE GARDE - 2 niveau d'imbrication
+public int TrouverMaximum(int[] nombres) {</p>
+<div class="language-text highlight"><pre><span></span><code>// Si le tableau est vide, on lance une exception
+if(nombres.Length == 0) 
+{
+    throw new Exception(&quot;Le tableau pour la recherche est vide&quot;);
+}
+
+// Si l&#39;on atteint ce point, on est certain que le tableau contient au 
+// moins un élément
+int max = nombres[0]
+
+for(int i = 1; i &lt; nombres.Length; i++) 
+{
+    if(nombres[i] &gt; max) 
+    {
+        max=nombres[i];
+    }
+}
+
+return max;
+</code></pre></div>
+<p>}
+```</p>
+<h2 id="commentaires">Commentaires</h2>
+<p>Chaque classe, fonction et méthode doivent être accompagnées d’un commentaire de code expliquant sa fonction, ses paramètres et son type de retour. Les séquences de code complexes, comme les codes imbriqués et les longues lignes scindées sur plusieurs, doivent aussi être accompagnées d’un commentaire. </p>
+<p>Lorsqu’un standard de documentation existe, il doit être utilisé. Sinon, l’enseignant ou l’enseignante indiquera le standard de documentation à utiliser.</p>
+<center>
+
+|Langage|Standard|
+|:--|:--|
+|C#|&lt;summary&gt;|
+|Java|Javadoc|
+|JavaScript|JSDoc|
+|PHP|PhpDoc|
+|Python|Docstring|
+
+</center>
+
+<h2 id="accentuation">Accentuation</h2>
+<p>Bien que la plupart des outils prennent en charge les caractères accentués, il n’est pas recommandé de les utiliser dans les indicateurs de code. Cette recommandation vient du fait que votre code est partagé à travers divers environnements, parfois sur des systèmes d’exploitation différents. Les caractères accentués doivent être utilisés dans les commentaires qui accompagnent le code.</p>
+<h2 id="references">Références</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Langage</th>
+<th style="text-align: left;">Référence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">C#</td>
+<td style="text-align: left;">MSDN. <em>Common C# code conventions</em>. https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names <br> MSDN. <em>C# identifier naming rules and conventions</em>. https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions</td>
+</tr>
+<tr>
+<td style="text-align: left;">C++</td>
+<td style="text-align: left;">Stroustrup B. et Sutter H. (8 juillet 2025). <em>C++ Core Guidelines</em>. https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines</td>
+</tr>
+<tr>
+<td style="text-align: left;">CSS</td>
+<td style="text-align: left;">Mozilla Developper Network (2025). <em>Référence CSS</em>. MDN Web Docs. https://developer.mozilla.org/fr/docs/Web/CSS/Reference</td>
+</tr>
+<tr>
+<td style="text-align: left;">HTML</td>
+<td style="text-align: left;">WHATWG (2025). <em>HTML Living Standard</em>. https://html.spec.whatwg.org/multipage <br> Mozilla Developper Network (2025). <em>Référence HTML</em>. MDN Web Docs. https://developer.mozilla.org/fr/docs/Web/HTML/Reference</td>
+</tr>
+<tr>
+<td style="text-align: left;">Java</td>
+<td style="text-align: left;">Gries, D. (2017). <em>Java Code Style Guidelines</em>. Cornell University. Departement of Computer Science. https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html</td>
+</tr>
+<tr>
+<td style="text-align: left;">JavaScript</td>
+<td style="text-align: left;"><em>Coding style</em>. The Modern JavaScript Tutorial. (2022, June 26). https://javascript.info/coding-style <br> Google javascript style guide. https://google.github.io/styleguide/jsguide.html</td>
+</tr>
+<tr>
+<td style="text-align: left;">Kotlin</td>
+<td style="text-align: left;">Android Developer. <em>Guide de style Kotlin.</em>  https://developer.android.com/kotlin/style-guide?hl=fr.</td>
+</tr>
+<tr>
+<td style="text-align: left;">PHP</td>
+<td style="text-align: left;">PHP Framework Interop Group. <em>PHP Standards Recommendations.</em> https://www.php-fig.org/psr/.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Python</td>
+<td style="text-align: left;">van Rossum G., Warsaw B. et Coghlan A. (4 avril 2025). <em>PEP 8 – Style Guide for Python Code</em>. http://peps.python.org/pep-0008/ <br> Goodger D. et van Rossum, G. (17 avril 2024). <em>PEP 257 – Docstring Conventions</em>. https://peps.python.org/pep-0257/</td>
+</tr>
+<tr>
+<td style="text-align: left;">SQL</td>
+<td style="text-align: left;">Reppel, I. (2025). <em>Style Guide</em>. https://oracle.readthedocs.io/en/latest/sql/basics/style-guide.html</td>
+</tr>
+<tr>
+<td style="text-align: left;">TypeScript</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="mises-a-jour">Mises à jour</h2>
+<p>En cas de lien brisés ou pour signaler un changement dans les conventions, veuillez contacter ouellet.alexandre@cegepvicto.ca</p>
 
 
 
