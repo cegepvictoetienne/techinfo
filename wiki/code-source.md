@@ -173,9 +173,9 @@ private void ValiderCaractere(char caractere)
 
 ```
 
-> Vous avez de la difficulé à réduire les niveaux d'imbrication dans vos codes : utilisez les clauses de garde pour vous aider. Ces clauses interrompre un traitement lorsqu'une condition n'est pas respectée plutôt que de permettre le traitement lorsqu'elle est respectées.
+> Vous avez de la difficulté à réduire les niveaux d'imbrication dans vos codes : utilisez les clauses de garde pour vous aider. Ces clauses interrompre un traitement lorsqu'une condition n'est pas respectée plutôt que de permettre le traitement lorsqu'elle est respectées.  
 
-```c# title="Utilisation des clauses de garde" line_nums="1"
+``` c# title="Utilisation des clauses de garde"    
 // SANS CLAUSE DE GARDE - 3 niveaux d'imbrication
 public int TrouverMaximum(int[] nombres) {
     
@@ -230,7 +230,6 @@ Chaque classe, fonction et méthode doivent être accompagnées d’un commentai
 
 Lorsqu’un standard de documentation existe, il doit être utilisé. Sinon, l’enseignant ou l’enseignante indiquera le standard de documentation à utiliser.
 
-<center>
 
 |Langage|Standard|
 |:--|:--|
@@ -240,7 +239,6 @@ Lorsqu’un standard de documentation existe, il doit être utilisé. Sinon, l�
 |PHP|PhpDoc|
 |Python|Docstring|
 
-</center>
 
 ## Accentuation
 
