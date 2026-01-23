@@ -85,9 +85,9 @@
                     <span class="cal-class-title">Programmation en science</span>
                     <div class="cal-class-lign"><span class="cal-class-professor">Francois</span><span class="cal-class-location">C211</span></div>
                 </div>
-            </div><div class="cal-class Frederik" style="grid-column: 1 / span 2; grid-row: 7;">
+            </div><div class="cal-class Frederik" style="grid-column: 7 / span 2; grid-row: 7;">
                 <div class="cal-info ">
-                    <div class="cal-class-lign-haut"><span class="cal-class-time">8:15 - 10:05</span><span class="cal-class-group">gr. 1</span></div>
+                    <div class="cal-class-lign-haut"><span class="cal-class-time">14:15 - 17:05</span><span class="cal-class-group">gr. 1</span></div>
                     <span class="cal-class-title">Création multimédia </span>
                     <div class="cal-class-lign"><span class="cal-class-professor">Frederik</span><span class="cal-class-location">ES12</span></div>
                 </div>
