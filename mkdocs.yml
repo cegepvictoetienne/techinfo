@@ -43,6 +43,7 @@ extra:
 
 nav:
   - "Page principale": "index.md"
+  - "Centre d'aide en informatique": "centre-aide-informatique.md"
   - "Grille des préalables": "grille.md"
   - "Horaire des professeurs": "horaire.md"
   - "Demander du tutorat": "tutorat.md"
