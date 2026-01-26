@@ -22,4 +22,6 @@ Dans la clairière. Les xxx de xxhxx à xxhxx.
 
 Dans la salle de réunion. Les xxx de xxhxx à xxhxx.  
 
+## Résidences.  
 
+Aux tables près des casiers. Les mercredis de 10h15 à 12h00.  
