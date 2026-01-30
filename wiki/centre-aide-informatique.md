@@ -16,11 +16,11 @@ Dans l'atrium. Les mardis de 10h15 à 12h00.
 
 ## ENME  
 
-Dans la clairière. Les xxx de xxhxx à xxhxx.  
+Dans la clairière. **L'horaire sera disponible bientôt.**  
 
 ## CIFIT  
 
-Dans la salle de réunion. Les xxx de xxhxx à xxhxx.  
+Dans la salle de réunion. **L'horaire sera disponible bientôt.**   
 
 ## Résidences  
 
