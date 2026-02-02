@@ -20,7 +20,7 @@ Dans la clairière. **L'horaire sera disponible bientôt.**
 
 ## CIFIT  
 
-Dans la salle de réunion. **L'horaire sera disponible bientôt.**   
+Dans la salle de réunion. Les jeudis de 11h00 à 13h00.  
 
 ## Résidences  
 
