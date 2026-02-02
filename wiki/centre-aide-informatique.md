@@ -16,7 +16,7 @@ Dans l'atrium. Les mardis de 10h15 à 12h00.
 
 ## ENME  
 
-Dans la clairière. **L'horaire sera disponible bientôt.**  
+Dans la clairière. Les lundis de 12h15 à 14h00.  
 
 ## CIFIT  
 
