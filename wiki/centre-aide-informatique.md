@@ -14,7 +14,7 @@ Devant la salle de regroupement, le U. Les mercredis de 10h15 à 12h00.
 
 Dans l'atrium. Les mardis de 10h15 à 12h00.  
 
-## ENME  
+## ENME   
 
 Dans la clairière. Les lundis de 12h15 à 14h00.  
 
