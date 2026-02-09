@@ -9,6 +9,7 @@
   --cal-Frederik: #fdc57b;
   --cal-Gabriel: #7fa99b;
   --cal-Mathieu: #7fa99b;
+  --cal-Virgil: #7fa99b;
   --cal-Sebastien: #7fa99b;
   --cal-Simon: #394a51;
 
@@ -204,6 +205,9 @@
 }
 .Mathieu {
   background-color: var(--cal-Mathieu);
+}
+.Virgil {
+  background-color: var(--cal-Virgil);
 }
 .Sebastien {
   background-color: var(--cal-Sebastien);
