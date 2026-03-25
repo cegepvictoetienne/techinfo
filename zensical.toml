@@ -3,6 +3,7 @@ site_name = "Techniques de l'informatique du Cégep de Victoriaville"
 site_author = "Étienne Rivard"
 docs_dir = "wiki"
 site_dir = "www"
+site_url = "https://techinfo.profinfo.ca"
 use_directory_urls = true
 
 plugins = ["search", "table-reader"]
