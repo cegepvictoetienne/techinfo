@@ -13,7 +13,7 @@ En raison des spécificités de chaque langage, la mise en œuvre des diverses a
 
 Les noms des variables, méthodes, fonctions, classes, modules, espaces de noms, paquets et tout autre indicateur de code doivent représenter son rôle dans le code. 
 
-```c# linenums="1"
+```c# linenums="1"  
 // MAUVAISE PRATIQUE
 public double ConvertirTemperature(double t) {
     return t * 1.8 + 32.0;

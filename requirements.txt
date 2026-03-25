@@ -1,4 +1,1 @@
-mkdocs-material
-openpyxl
-pyyaml
-mkdocs-table-reader-plugin
+zensical

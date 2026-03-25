@@ -1,0 +1,106 @@
+[project]
+site_name = "Techniques de l'informatique du Cégep de Victoriaville"
+site_author = "Étienne Rivard"
+docs_dir = "wiki"
+site_dir = "www"
+use_directory_urls = true
+
+plugins = ["search", "table-reader"]
+
+extra_css = [
+    "css/extra.css",
+    "css/horaire.css",
+    "css/team.css",
+    "css/autonomie.css",
+]
+
+extra_javascript = [
+    "javascript/alltarget.js",
+    "javascript/autonomie.js",
+]
+
+nav = [
+    { "Page principale" = "index.md" },
+    { "Centre d'aide en informatique" = "centre-aide-informatique.md" },
+    { "Grille des préalables" = "grille.md" },
+    { "Horaire des professeurs" = "horaire.md" },
+    { "Demander du tutorat" = "tutorat.md" },
+    { "Sites de notes de cours" = "sites.md" },
+    { "Portrait de l'autonomie de l'élève" = "autonomie.md" },
+    { "Équipe" = "equipe.md" },
+    { "Stages" = [
+        { "Pour les élèves" = "stages-eleve.md" },
+        { "Pour les employeurs" = "stages.md" },
+    ]},
+    { "Intégrité académique" = [
+        { "Niveaux d'utilisation de l'intelligence artificielle" = "niveaux-ia.md" },
+        { "Citer l'intelligence artificielle" = "citer-ia.md" },
+        { "Code emprunté" = "code-emprunte.md" },
+    ]},
+    { "Références" = [
+        { "Guide du code source" = "code-source.md" },
+        { "Abréviations" = "abreviations.md" },
+        { "Traductions" = "traductions.md" },
+        { "Rafraîchir les compétences" = "rafraichissement.md" },
+    ]},
+    { "Visual Studio Code" = [
+        { "Extensions" = "vscode/extensions.md" },
+    ]},
+    { "Guide Mac" = [
+        { "Page principale" = "guidemac/index.md" },
+        { "Installation" = [
+            { "GIT" = "guidemac/git.md" },
+            { "Java" = "guidemac/java.md" },
+            { "Homebrew" = "guidemac/homebrew.md" },
+            { "Kali Linux" = "guidemac/kali.md" },
+            { "Systèmes d'exploitation préinstallés" = "guidemac/os.md" },
+            { "UTM" = "guidemac/utm.md" },
+            { "UMLet" = "guidemac/umlet.md" },
+            { "Windows XP" = "guidemac/xp.md" },
+        ]},
+        { "Procédures" = [
+            { "Créer ISO" = "guidemac/creer-iso.md" },
+            { "Convertir vmdk vers qcow2" = "guidemac/convertir-vmdk-vers-qcow2.md" },
+            { "Convertir qcow2 vers vmdk" = "guidemac/convertir-qcow2-vers-vmdk.md" },
+        ]},
+    ]},
+]
+
+[project.theme]
+variant = "classic"
+name = "material"
+custom_dir = "overrides"
+language = "fr"
+logo = "assets/logo32x32.png"
+features = ["content.code.copy"]
+
+[project.theme.icon.admonition]
+note = "fontawesome/solid/note-sticky"
+abstract = "fontawesome/solid/book"
+info = "fontawesome/solid/circle-info"
+tip = "fontawesome/solid/bullhorn"
+success = "fontawesome/solid/check"
+question = "fontawesome/solid/circle-question"
+warning = "fontawesome/solid/triangle-exclamation"
+failure = "fontawesome/solid/bomb"
+danger = "fontawesome/solid/skull"
+bug = "fontawesome/solid/robot"
+example = "fontawesome/solid/flask"
+quote = "fontawesome/solid/quote-left"
+
+[project.extra.analytics]
+provider = "google"
+property = "G-CEJXGD79WZ"
+
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+
+[project.markdown_extensions.pymdownx.snippets]
+[project.markdown_extensions.pymdownx.superfences]
+
+[[project.markdown_extension_configs.custom_fences]]
+name = "mermaid"
+class = "mermaid"
+format = "pymdownx.superfences.fence_code_format"
