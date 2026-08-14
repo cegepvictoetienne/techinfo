@@ -9,18 +9,9 @@
 | 420-5A3-VI | Technologies émergentes (2024) | [Technologies émergentes](https://technologies-emergentes.github.io/)|   
 
 
-# Christiane Lagacé
-
-| Sigle | Nom | URL |
-|-------|-----|-----|
-| 420-2A4-VI | Développement Web 1 | [Apical](https://apical.xyz)|
-| 420-4D4-VI | Applications mobiles 1 | [Apical](https://apical.xyz)|
-
 # François Mercier  
 
-| Sigle | Nom | URL |
-|-------|-----|-----|
-| 420-3A5-VI | Développement Web 2| [Développement Web 2](https://web-2.akua.ca/)|   
+[Sites des cours de François](https://akua.ca/cours/)|   
 
 # Alexandre Ouellet
 
