@@ -11,7 +11,7 @@
 
 # François Mercier  
 
-[Sites des cours de François](https://akua.ca/cours/)|   
+[Sites des cours de François](https://akua.ca/cours/)  
 
 # Alexandre Ouellet
 
