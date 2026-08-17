@@ -12,7 +12,7 @@ from openpyxl import load_workbook
 
 PAR_JOUR = 8
 LIGNE_DEBUT_COURS = 3
-TITRE_PAGE = "# Horaire des professeurs pour l'hiver 2026"
+TITRE_PAGE = "# Horaire des professeurs pour l'automne 2026"
 REUNION_DEPARTEMENT = {
     "titre":"Réunion&nbsp;départementale",
     "heure_debut":"8:15",

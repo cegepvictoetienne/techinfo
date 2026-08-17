@@ -2,14 +2,10 @@
 :root {
   --cal-color-day: rgb(251, 246, 239);
   --cal-Alexandre: #394a51;
-  --cal-Christiane: #fdc57b;
-  --cal-Cirine: #7fa99b;
   --cal-Etienne: #7fa99b;
   --cal-Francois: #394a51;
   --cal-Frederik: #fdc57b;
-  --cal-Gabriel: #7fa99b;
   --cal-Mathieu: #7fa99b;
-  --cal-Virgil: #7fa99b;
   --cal-Sebastien: #7fa99b;
   --cal-Simon: #394a51;
 
@@ -185,15 +181,6 @@
 .Alexandre {
   background-color: var(--cal-Alexandre);
 }
-.Carine {
-  background-color: var(--cal-Carine);
-}
-.Christiane {
-  background-color: var(--cal-Christiane);
-}
-.Cirine {
-  background-color: var(--cal-Cirine);
-}
 .Etienne {
   background-color: var(--cal-Etienne);
 }
@@ -206,17 +193,11 @@
 .Mathieu {
   background-color: var(--cal-Mathieu);
 }
-.Virgil {
-  background-color: var(--cal-Virgil);
-}
 .Sebastien {
   background-color: var(--cal-Sebastien);
 }
 .Simon {
   background-color: var(--cal-Simon);
-}
-.Gabriel {
-  background-color: var(--cal-Gabriel);
 }
 .Departement {
   background-color: var(--cal-Departement);
