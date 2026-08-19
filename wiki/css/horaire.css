@@ -8,6 +8,7 @@
   --cal-Mathieu: #7fa99b;
   --cal-Sebastien: #fdc57b;
   --cal-Simon: #394a51;
+  --cal-X: #7fa99b;
 
   --cal-Departement: #fdc57b;
   --tooltip-triangle-size: 0.5rem;
@@ -198,6 +199,9 @@
 }
 .Simon {
   background-color: var(--cal-Simon);
+}
+.X {
+  background-color: var(--cal-X);
 }
 .Departement {
   background-color: var(--cal-Departement);
