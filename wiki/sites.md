@@ -29,3 +29,14 @@
 | 420-5A5-VI | Développement Web 3 | [Web3](https://web3.profinfo.ca)|
 | 420-6A3-VI | Projet personnel | [Projet personnel](https://projetpersonnel.profinfo.ca)|
 
+
+# Sébastien Trottier  
+
+
+| Sigle | Nom | URL |  
+|-------|-----|-----|  
+| 420-1D6-VI | Objets Connectés 1 | [Objets Connectés 1](https://objets-connectes-1-victo.github.io/notes_de_cours/)   
+| 420-1D6-VI | Programmation 1 | [Programmation 1](https://prog1-cegepvicto.github.io/)  
+| 420-5B4-VI | Applications Mobiles 2 |  [Applications Mobiles 2](https://apps-mobiles-2-victo.github.io/notes_de_cours/)  
+| 420-3A3-VI | Nano-ordinateurs |  [Nano-ordinateurs](https://nano-ordinateurs.github.io/)  
+ 
