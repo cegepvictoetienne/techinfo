@@ -45,6 +45,7 @@ nav = [
     ]},
     { "Visual Studio Code" = [
         { "Extensions" = "vscode/extensions.md" },
+        { "Désactiver l'IA dans VS Code" = "vscode/desactiver-ia.md" },
     ]},
     { "Guide Mac" = [
         { "Page principale" = "guidemac/index.md" },
